@@ -12,8 +12,8 @@
 - The quick glossary was upgraded with plain-language definitions for all 50 key terms.
 
 ### All Changes
-- **chore**: sync upstream + rebuild + AI-enhanced indexes
 - **chore**: sync upstream + rebuild + AI-enhanced indexes (v0.12.0)
+- **chore**: fix duplicate changelog entry
 
 ## 2026-09-01
 
