@@ -1,23 +1,23 @@
-# Preface** (non-normative)
+# Preface (non-normative)
 
-- [What This Specification Is And How To Use It](01-what-this-specification-is-and-how-to-use-it.md) — What the FPF pattern language is, how patterns differ from tutorials, and how to navigate this specification.
-- [FPF As A Project, Not Only A Pattern List](02-fpf-as-a-project-not-only-a-pattern-list.md) — How the Core Specification relates to companion explanations, tools, and domain adaptations.
-- [Why FPF Exists](03-why-fpf-exists.md) — Why ideas change meaning as they travel across teams, and how FPF prevents that drift.
-- [Creativity And Assurance Mature Together](04-creativity-and-assurance-mature-together.md) — How to keep creative exploration and evidence-based assurance active at the same time.
-- [Local Closure Inside An Open World](05-local-closure-inside-an-open-world.md) — How to define a bounded, closed scope for a decision inside a world that stays open.
-- [FPF As An Evolutionary Architecture For Thought](06-fpf-as-an-evolutionary-architecture-for-thought.md) — How FPF's pattern language can grow and change while keeping reasoning reviewable.
-- [Architectural Characteristics Of Thought](07-architectural-characteristics-of-thought.md) — The measurable qualities of reasoning arrangements that FPF's patterns help preserve.
-- [Beyond Bias Hunting](08-beyond-bias-hunting.md) — How FPF builds reasoning structures that prevent whole classes of mistakes, not just name them.
-- [Thinking Through Writing](09-thinking-through-writing.md) — Why written records are thinking instruments that make reasoning inspectable and reusable.
-- [Thinking-Oriented Architecture, Not A Descriptive Upper Ontology](10-thinking-oriented-architecture-not-a-descriptive-upper-ontol.md) — How FPF differs from an ontology: it asks what to do next, not just what kinds of things exist.
-- [The Bitter Lesson Stance](11-the-bitter-lesson-stance.md) — Why FPF prefers agents free to search within declared bounds over brittle hand-coded scripts.
-- [From Flat Documents To Multi-View Truth](12-from-flat-documents-to-multi-view-truth.md) — How one subject needs multiple separate descriptions for different readers or concerns.
-- [Architecture As Structure Of Holons](13-architecture-as-structure-of-holons.md) — How architecture is the actual structure of a system, not its diagram or document.
-- [Boundary Statements](14-boundary-statements.md) — When a sentence crosses into a contract or safety case and must be split into separate claims.
-- [Raising Semantic Precision](15-raising-semantic-precision.md) — How to upgrade compressed or metaphorical language to exact claims step by step.
-- [Big FPF Storylines](16-big-fpf-storylines.md) — The core commitments—holons, contexts, evidence, architecture—that give FPF its coherence.
-- [Transdisciplinarity As A Meta-Theory Of Thinking](17-transdisciplinarity-as-a-meta-theory-of-thinking.md) — How FPF enables reasoning across different specialist disciplines without erasing local meanings.
-- [The Culinary Architecture Of Collective Thought](18-the-culinary-architecture-of-collective-thought.md) — Why FPF provides shared infrastructure for good reasoning rather than recipes for specific tasks.
-- [The Intellect Stack As A Pedagogical Map](19-the-intellect-stack-as-a-pedagogical-map.md) — A map of reasoning capability areas that teams often underinvest in, paired with relevant patterns.
-- [Purpose, Scope, And Non-Goals](20-purpose-scope-and-non-goals.md) — What FPF is for, what it does not replace, and what falls outside its scope.
-- [How To Continue After The readme](21-how-to-continue-after-the-readme.md) — How to move from the readme into the right pattern body for your current project question.
+- [FPF.Preface:1 - What This Specification Is And How To Use It](01-fpfpreface1-what-this-specification-is-and-how-to-use-it.md) — Starting guide that explains what kind of document this is and how to read it
+- [FPF.Preface:2 - FPF As A Project, Not Only A Pattern List](02-fpfpreface2-fpf-as-a-project-not-only-a-pattern-list.md) — Why the framework grows through active use rather than being a static catalog
+- [FPF.Preface:3 - Why FPF Exists](03-fpfpreface3-why-fpf-exists.md) — The core coordination problems that motivated building this framework
+- [FPF.Preface:4 - Creativity And Assurance Mature Together](04-fpfpreface4-creativity-and-assurance-mature-together.md) — How exploration and rigor reinforce each other instead of trading off
+- [FPF.Preface:5 - Local Closure Inside An Open World](05-fpfpreface5-local-closure-inside-an-open-world.md) — How teams stay internally coherent while staying open to outside change
+- [FPF.Preface:6 - FPF As An Evolutionary Architecture For Thought](06-fpfpreface6-fpf-as-an-evolutionary-architecture-for-thought.md) — How the framework itself adapts as understanding grows
+- [FPF.Preface:7 - Architectural Characteristics Of Thought](07-fpfpreface7-architectural-characteristics-of-thought.md) — Structural properties that make thinking reliable under pressure
+- [FPF.Preface:8 - Beyond Bias Hunting](08-fpfpreface8-beyond-bias-hunting.md) — Why fixing hidden structural assumptions matters more than just spotting surface errors
+- [FPF.Preface:9 - Thinking Through Writing](09-fpfpreface9-thinking-through-writing.md) — How putting ideas in writing reveals gaps and tests their soundness
+- [FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology](10-fpfpreface10-thinking-oriented-architecture-not-a-descriptiv.md) — What distinguishes this framework from traditional knowledge-representation systems
+- [FPF.Preface:11 - The Bitter Lesson Stance](11-fpfpreface11-the-bitter-lesson-stance.md) — Why scalable general approaches outperform hand-crafted solutions over time
+- [FPF.Preface:12 - From Flat Documents To Multi-View Truth](12-fpfpreface12-from-flat-documents-to-multi-view-truth.md) — How the same facts look different from different stakeholder viewpoints
+- [FPF.Preface:13 - Architecture As Structure Of Holons](13-fpfpreface13-architecture-as-structure-of-holons.md) — Systems nested inside systems as the fundamental building block
+- [FPF.Preface:14 - Boundary Statements](14-fpfpreface14-boundary-statements.md) — How to say exactly where one thing ends and another begins
+- [FPF.Preface:15 - Raising Semantic Precision](15-fpfpreface15-raising-semantic-precision.md) — Moving from vague shared vocabulary to clear agreed meanings teams can act on
+- [FPF.Preface:16 - Big FPF Storylines](16-fpfpreface16-big-fpf-storylines.md) — The major themes and threads that run through the whole framework
+- [FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking](17-fpfpreface17-transdisciplinarity-as-a-meta-theory-of-thinkin.md) — How ideas from different fields combine without losing their specific meaning
+- [FPF.Preface:18 - The Culinary Architecture Of Collective Thought](18-fpfpreface18-the-culinary-architecture-of-collective-thought.md) — How teams build shared understanding by combining raw materials into something new
+- [FPF.Preface:19 - The Intellect Stack As A Pedagogical Map](19-fpfpreface19-the-intellect-stack-as-a-pedagogical-map.md) — A layered learning path that guides newcomers into the framework step by step
+- [FPF.Preface:20 - Purpose, Scope, And Non-Goals](20-fpfpreface20-purpose-scope-and-non-goals.md) — What this specification covers and what it deliberately leaves out
+- [FPF.Preface:21 - How To Continue After The readme](21-fpfpreface21-how-to-continue-after-the-readme.md) — Recommended next steps once you have read the introductory material

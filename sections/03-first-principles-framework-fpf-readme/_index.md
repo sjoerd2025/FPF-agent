@@ -1,11 +1,13 @@
 # First Principles Framework (FPF) Readme
 
-- [Practical entries](01-practical-entries.md) — Example situations showing which pattern to start from without reading the entire spec first.
-- [Decide Whether FPF Fits](02-decide-whether-fpf-fits.md) — When to use FPF vs. when a simpler approach is enough.
-- [When Several Transformation Flows Form One Network](03-when-several-transformation-flows-form-one-network.md) — How to link multiple independent work flows that share results or dependencies.
-- [Recover a lost path from outside use to recursive builders](04-recover-a-lost-path-from-outside-use-to-recursive-builders.md) — How to reconnect project reasoning when the link between outcomes and who builds them goes missing.
-- [One-Minute Example](05-one-minute-example.md) — A platform team's buy-vs-build decision showing how FPF keeps architecture, evidence, and options distinct.
-- [What FPF Is](06-what-fpf-is.md) — What teams can accomplish by applying FPF's pattern language to keep work coherent across boundaries.
-- [What FPF Is Not](07-what-fpf-is-not.md) — What FPF is not: not a methodology, checklist, quick-answer tool, or domain expertise replacement.
-- [How to Use This Repository](08-how-to-use-this-repository.md) — Where to start in the specification based on your current question, including how to pair it with an AI assistant.
-- [Citation](09-citation.md) — How to cite FPF if you use it in a project or publication.
+- [Mathematical Practice and earlier FPF addresses](01-mathematical-practice-and-earlier-fpf-addresses.md) — Context for the framework's mathematical foundations and links to earlier versions
+- [Practical entries](02-practical-entries.md) — Quick-start entry points so you can apply the framework immediately
+- [Decide Whether FPF Fits](03-decide-whether-fpf-fits.md) — A checklist to decide whether this framework suits your current problem
+- [When Several Transformation Flows Form One Network](04-when-several-transformation-flows-form-one-network.md) — How to handle complex pipelines where work moves through multiple teams or stages
+- [Recover a lost path from outside use to recursive builders](05-recover-a-lost-path-from-outside-use-to-recursive-builders.md) — How to reconnect user needs back to the people building the underlying systems
+- [One-Minute Example](06-one-minute-example.md) — A fast concrete illustration showing the framework in action
+- [What FPF Is](07-what-fpf-is.md) — Core identity and purpose of the framework explained plainly
+- [What FPF Is Not](08-what-fpf-is-not.md) — Common misconceptions and clear limits of what this framework covers
+- [How to Use This Repository](09-how-to-use-this-repository.md) — Navigation guide for the spec files and directory structure
+- [License and reuse](10-license-and-reuse.md) — Terms for using and sharing this work
+- [Citation](11-citation.md) — How to credit the framework when referencing it in your own work

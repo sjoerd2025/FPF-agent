@@ -1,48 +1,49 @@
 # Cluster A.V - Constitutional Principles of the Kernel
 
-- [A.7 - Strict Distinction (Clarity Lattice) (A.7)](01-a7-a7-strict-distinction-clarity-lattice.md) — How to separate closely related objects a sentence may be conflating before checking the claim.
-- [A.7.1 - Consequence-Guided Ontological Problem Solving (A.7.1)](02-a71-a71-consequence-guided-ontological-problem-solving.md) — How to pick the right object kind by asking what goes wrong in the project if you choose the wrong one.
-- [A.7.2 - FPF Ontology-Premise Reconciliation (A.7.2)](03-a72-a72-fpf-ontology-premise-reconciliation.md) — How to reconcile FPF's ontology with existing premises in a project without reintroducing conflicts.
-- [A.7.CP - Constructive-Premise Compact and Reasoning-Basis Use (A.7.CP)](04-a7cp-a7cp-constructive-premise-compact-and-reasoning-basis-use.md) — How to state and use the reasoning basis explicitly before making claims that depend on it.
-- [A.8 - Universal Core Principle (A.8)](05-a8-a8-universal-core-principle.md) — The admission principle that every new kind must satisfy before it can be used in FPF.
-- [A.9 - Cross‑Scale Consistency (C‑3) (A.9)](06-a9-a9-crossscale-consistency-c3.md) — How to keep reasoning consistent whether examining a part, an assembly, or a whole system.
-- [A.10 - Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph (A.10)](07-a10-a10-evidence-graph-referring-claim-bound-evidence-and-proven.md) — How to tie each claim to the evidence that supports it and track where that evidence came from.
-- [A.10.1 - Revalidate Affected Uses When a Relied-on Source Changes (A.10.1)](08-a101-a101-revalidate-affected-uses-when-a-relied-on-source-change.md) — How to identify which downstream uses must be revisited when a relied-on source changes.
-- [A.11 - Ontological Parsimony (A.11)](09-a11-a11-ontological-parsimony.md) — How to avoid introducing new kinds when existing ones are sufficient for the current claim.
-- [A.12 - Acting-Side Externalization and Reflexive Split (A.12)](10-a12-a12-acting-side-externalization-and-reflexive-split.md) — How to separate the system that acts from the system being changed or observed.
-- [A.13 - The Agential Role & Agency Spectrum (A.13)](11-a13-a13-the-agential-role-agency-spectrum.md) — How to define agency as a measurable operating mode rather than a special kind of entity.
-- [A.14 - Advanced Mereology: Components, Portions, Aspects & Phases (A.14)](12-a14-a14-advanced-mereology-components-portions-aspects-phases.md) — How to tell apart components, portions, aspects, and phases so they are not conflated.
-- [A.15 - System-Role–Method–Work Alignment (A.15)](13-a15-a15-system-rolemethodwork-alignment.md) — How to align which system did which work, under which assignment, by which method.
-- [A.15.1 - U.Work (A.15.1)](14-a151-a151-uwork.md) — How to admit one dated work occurrence with an independent evidence basis.
-- [A.15.2 - U.WorkPlan (A.15.2)](15-a152-a152-uworkplan.md) — How to state intended future work without treating the plan as if the work already occurred.
-- [A.15.3 - SlotFillingsPlanItem (A.15.3)](16-a153-a153-slotfillingsplanitem.md) — How to fill the individual slots of a plan item with the values they actually need.
-- [A.15.4 - Work-Relevant Appearance-Based Reliance Repair (A.15.4)](17-a154-a154-work-relevant-appearance-based-reliance-repair.md) — How to fix cases where appearances or records are mistaken for actual work evidence.
-- [A.15.5 - Work-Entry Readiness and Full-Kit Preparation (A.15.5)](18-a155-a155-work-entry-readiness-and-full-kit-preparation.md) — How to check that planned work has everything it needs—methods, permissions, resources—before it starts.
-- [A.15.6 - Project, Process, and Case Recovery through Work, Method, and Transformation (A.15.6)](19-a156-a156-project-process-and-case-recovery-through-work-method-a.md) — How to recover which project entity labels like 'project,' 'process,' or 'case' actually refer to.
-- [A.15.7 - Situation-Responsive Work Steering and Next-Action Selection (A.15.7)](20-a157-a157-situation-responsive-work-steering-and-next-action-sele.md) — How to choose the next action while work is under way and current facts may change the decision.
-- [A.15.8 - Work-Performance Configuration and Recovery Testing (A.15.8)](21-a158-a158-work-performance-configuration-and-recovery-testing.md) — How to configure and test a work setup to confirm ongoing tasks can actually proceed.
-- [A.15.9 - Request and Use a Bounded Result from Another Practice (A.15.9)](22-a159-a159-request-and-use-a-bounded-result-from-another-practice.md) — How to get a bounded result from a specialist practice without absorbing their method or authority.
-- [A.15.PROD - Production Work, Entity-Identity Inception, and Production Completion Recovery (A.15.PROD)](23-a15prod-a15prod-production-work-entity-identity-inception-and-produc.md) — How to record the work that produces a new entity and establishes its initial identity.
-- [A.16 - Language-State Move Coordination (A.16)](24-a16-a16-language-state-move-coordination.md) — How to track and coordinate changes in the shared working language of a project.
-- [A.16.0 - U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace (A.16.0)](25-a160-a160-ulanguagestatemovetrajectory-optional-trajectory-accoun.md) — How to record language-state moves over time as a trajectory for later inspection.
-- [A.16.1 - U.PreArticulationCuePack (A.16.1)](26-a161-a161-uprearticulationcuepack.md) — How to capture early signals before a concept is precise enough to be named.
-- [A.16.2 - Reopen / SketchBackoff / Respecify (A.16.2)](27-a162-a162-reopen-sketchbackoff-respecify.md) — How to step back to a sketchier claim when a sharper one cannot yet be supported.
-- [A.17 - Canonical "Characteristic" (A.CHR‑NORM) (A.17)](28-a17-a17-canonical-characteristic-achrnorm.md) — How to use a single canonical term for the measured aspect, not synonyms like 'dimension' or 'metric'.
-- [A.18 - Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL) (A.18)](29-a18-a18-minimal-cslc-in-kernel-characteristic-scale-level-coordi.md) — How to map one measurable aspect to a scale, level, and coordinate.
-- [A.19 - CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE) (A.19)](30-a19-a19-characteristicspace-dynamics-hook-achrspace.md) — How to declare a space of measurable aspects for evaluation or comparison.
-- [A.19.ECS - Evaluation CharacteristicSpace Construction (A.19.ECS)](31-a19ecs-a19ecs-evaluation-characteristicspace-construction.md) — How to construct a characteristic space for evaluating and comparing candidates.
-- [A.19.SPR - State-Family Precision Restoration (A.19.SPR)](32-a19spr-a19spr-state-family-precision-restoration.md) — How to fix state language that hides the actual characteristic or level being claimed.
-- [A.19.SOURCE-SET-SPACE-SUBSTRATE - Source-Set and Search/Outcome-Space Substrate (A.19.SOURCE)](33-a19source-a19source-set-space-substrate-source-set-and-searchoutcome-s.md) — How to declare the set of sources and the search space used in a generation task.
-- [A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW - Declared-Substrate Interpretive View (A.19.DECLARED)](34-a19declared-a19declared-substrate-interpretive-view-declared-substrate-i.md) — How to interpret a declared substrate from a stated purpose's point of view.
-- [A.19.CN - CN‑frame (comparability & normalization) (A.19.CN)](35-a19cn-a19cn-cnframe-comparability-normalization.md) — How to establish a comparability and normalization frame before comparing values across scales.
-- [A.19.CHR - CHRMechanismSuite (A.19.CHR)](36-a19chr-a19chr-chrmechanismsuite.md) — A suite of mechanisms for constructing, normalizing, scoring, and comparing characteristics.
-- [A.19.UNM - Unified Normalization Mechanism (UNM) (A.19.UNM)](37-a19unm-a19unm-unified-normalization-mechanism-unm.md) — How to normalize values to a declared reference scale.
-- [A.19.UINDM - Unified Indicatorization Mechanism (UINDM) (A.19.UINDM)](38-a19uindm-a19uindm-unified-indicatorization-mechanism-uindm.md) — How to turn raw signals into declared indicators with traceable conversion rules.
-- [A.19.USCM - Unified Scoring Mechanism, USCM (A.19.USCM)](39-a19uscm-a19uscm-unified-scoring-mechanism-uscm.md) — How to compute a score from normalized indicators under a declared scoring method.
-- [A.19.ULSAM - Unified Lawful Scale Aggregation Mechanism (ULSAM) (A.19.ULSAM)](40-a19ulsam-a19ulsam-unified-lawful-scale-aggregation-mechanism-ulsam.md) — How to aggregate values across levels without violating the structure of each scale.
-- [A.19.CPM - Unified Comparison Mechanism (CPM) (A.19.CPM)](41-a19cpm-a19cpm-unified-comparison-mechanism-cpm.md) — How to compare options under a declared comparability frame.
-- [A.19.SelectorMechanism - Unified Selection Kernel, SelectorMechanism (A.19.S)](42-a19s-a19selectormechanism-unified-selection-kernel-selectormechan.md) — How to select from a candidate set under declared acceptance criteria and policies.
-- [A.20 - Constraint Validity for Transformation Steps (A.20)](43-a20-a20-constraint-validity-for-transformation-steps.md) — How to verify that constraints are still valid before a transformation step can proceed.
-- [A.21 - Gate Decisions from Independent Check Results (A.21)](44-a21-a21-gate-decisions-from-independent-check-results.md) — How to make a go/no-go decision from independent check results.
-- [A.22 - Structure and Structural Views (STRUCT-CAL) (A.22)](45-a22-a22-structure-and-structural-views-struct-cal.md) — How to describe a system's structure and present different views for different readers.
-- [A.22.CGUS - Constraint-Governed Unfolding Structure (A.22.CGUS)](46-a22cgus-a22cgus-constraint-governed-unfolding-structure.md) — How to unfold a structure step by step under declared constraints, keeping each step checkable.
+- [A.7 - Strict Distinction (Clarity Lattice)](01-a7-a7-strict-distinction-clarity-lattice.md) — How to keep concepts cleanly separated so they don't blur into each other under pressure
+- [A.7.1 - Consequence-Guided Ontological Problem Solving](02-a71-a71-consequence-guided-ontological-problem-solving.md) — How to fix ontological ambiguities by following their practical consequences rather than debating definitions
+- [A.7.2 - FPF Ontology-Premise Reconciliation](03-a72-a72-fpf-ontology-premise-reconciliation.md) — How to resolve conflicts between your team's ontological assumptions
+- [A.7.CP - Constructive-Premise Compact](04-a7cp-a7cp-constructive-premise-compact-and-reasoning-basis-use.md) — How to make your foundational premises explicit so reasoning can be checked against them
+- [A.8 - Universal Core Principle](05-a8-a8-universal-core-principle.md) — The single most general principle that all other patterns rest on
+- [A.9 - Cross‑Scale Consistency](06-a9-a9-crossscale-consistency-c3.md) — How to ensure claims made at different scales of a system don't contradict each other
+- [A.10 - Evidence Graph Referring](07-a10-a10-evidence-graph-referring-claim-bound-evidence-and-proven.md) — How to link every claim to the evidence behind it and trace that evidence to its source
+- [A.10.1 - Revalidate Affected Uses When a Source Changes](08-a101-a101-revalidate-affected-uses-when-a-relied-on-source-change.md) — How to find and re-check everything that depends on a piece of evidence when that evidence changes
+- [A.11 - Ontological Parsimony](09-a11-a11-ontological-parsimony.md) — How to avoid multiplying concepts unnecessarily: use the simplest description that works
+- [A.11.OP - Operational Parsimony](10-a11op-a11op-decision-relevant-least-action-and-operational-parsimo.md) — How to choose the minimum action needed to achieve a decision-relevant result
+- [A.12 - Acting-Side Externalization and Reflexive Split](11-a12-a12-acting-side-externalization-and-reflexive-split.md) — How to separate the system being studied from the system doing the studying
+- [A.13 - The Agential Role & Agency Spectrum](12-a13-a13-the-agential-role-agency-spectrum.md) — How to place actors on a spectrum from fully constrained to fully autonomous
+- [A.14 - Advanced Mereology: Components, Portions, Aspects & Phases](13-a14-a14-advanced-mereology-components-portions-aspects-phases.md) — How to pick the right part-whole relationship for any situation
+- [A.15 - System-Role–Method–Work Alignment](14-a15-a15-system-rolemethodwork-alignment.md) — How to ensure that who does what, using which approach, is all consistent
+- [A.15.1 - U.Work](15-a151-a151-uwork.md) — What counts as a unit of work and how to bound it
+- [A.15.2 - U.WorkPlan](16-a152-a152-uworkplan.md) — How to structure a plan so work can be assigned, tracked, and verified
+- [A.15.3 - SlotFillingsPlanItem](17-a153-a153-slotfillingsplanitem.md) — How to fill in the required participants in a planned work item
+- [A.15.4 - Work-Relevant Appearance-Based Reliance Repair](18-a154-a154-work-relevant-appearance-based-reliance-repair.md) — How to fix situations where work was assigned based on surface similarity rather than genuine fit
+- [A.15.5 - Work-Entry Readiness and Full-Kit Preparation](19-a155-a155-work-entry-readiness-and-full-kit-preparation.md) — How to check that everything needed to start a work item is actually in place
+- [A.15.6 - Project, Process, and Case Recovery](20-a156-a156-project-process-and-case-recovery-through-work-method-a.md) — How to reconstruct the project structure from what work has actually been done
+- [A.15.7 - Situation-Responsive Work Steering](21-a157-a157-situation-responsive-work-steering-and-next-action-sele.md) — How to choose the right next action based on what has actually happened
+- [A.15.8 - Work-Performance Configuration and Recovery Testing](22-a158-a158-work-performance-configuration-and-recovery-testing.md) — How to verify that work is set up correctly and can recover from failures
+- [A.15.9 - Request and Use a Bounded Result from Another Practice](23-a159-a159-request-and-use-a-bounded-result-from-another-practice.md) — How to hand off work to another team and use what they return without over-relying on their internals
+- [A.15.PROD - Production Work and Entity-Identity Inception](24-a15prod-a15prod-production-work-entity-identity-inception-and-produc.md) — How to track the moment a new entity comes into existence through production
+- [A.16 - Language-State Move Coordination](25-a16-a16-language-state-move-coordination.md) — How to track where a conversation or negotiation currently stands
+- [A.16.0 - U.LanguageStateMoveTrajectory](26-a160-a160-ulanguagestatemovetrajectory-optional-trajectory-accoun.md) — How to record the sequence of moves that brought a discussion to its current state
+- [A.16.1 - U.PreArticulationCuePack](27-a161-a161-uprearticulationcuepack.md) — How to collect the signals that suggest something needs to be said before it is fully formed
+- [A.16.2 - Reopen / SketchBackoff / Respecify](28-a162-a162-reopen-sketchbackoff-respecify.md) — How to restart a stalled conversation, retreat to a sketch, or reformulate a problem
+- [A.17 - Canonical "Characteristic"](29-a17-a17-canonical-characteristic-achrnorm.md) — The standard way to name and use any measurable property of a system
+- [A.18 - Minimal CSLC in Kernel](30-a18-a18-minimal-cslc-in-kernel-characteristic-scale-level-coordi.md) — How characteristics, scales, levels, and coordinates work together as a minimal measurement kit
+- [A.19 - CharacteristicSpace & Dynamics Hook](31-a19-a19-characteristicspace-dynamics-hook-achrspace.md) — How to build a multidimensional space for comparing things on the characteristics you care about
+- [A.19.ECS - Evaluation CharacteristicSpace Construction](32-a19ecs-a19ecs-evaluation-characteristicspace-construction.md) — How to construct a characteristic space for evaluating and comparing options
+- [A.19.SPR - State-Family Precision Restoration](33-a19spr-a19spr-state-family-precision-restoration.md) — How to sharpen vague state descriptions into precise state families
+- [A.19.SOURCE-SET-SPACE-SUBSTRATE - Source-Set and Search/Outcome-Space Substrate](34-a19source-a19source-set-space-substrate-source-set-and-searchoutcome-s.md) — How to define the space of inputs and possible outcomes for a search or decision
+- [A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW - Declared-Substrate Interpretive View](35-a19declared-a19declared-substrate-interpretive-view-declared-substrate-i.md) — How to make explicit the lens through which a dataset or substrate is being interpreted
+- [A.19.CN - CN‑frame (comparability & normalization)](36-a19cn-a19cn-cnframe-comparability-normalization.md) — How to make different options comparable by putting them on the same scale
+- [A.19.CHR - CHRMechanismSuite](37-a19chr-a19chr-chrmechanismsuite.md) — The full toolkit for creating, using, and composing characteristics
+- [A.19.UNM - Unified Normalization Mechanism](38-a19unm-a19unm-unified-normalization-mechanism-unm.md) — How to normalize scores from different scales so they can be compared fairly
+- [A.19.UINDM - Unified Indicatorization Mechanism](39-a19uindm-a19uindm-unified-indicatorization-mechanism-uindm.md) — How to turn a raw observation into a usable indicator with known validity
+- [A.19.USCM - Unified Scoring Mechanism](40-a19uscm-a19uscm-unified-scoring-mechanism-uscm.md) — How to compute a score from multiple indicators in a principled, traceable way
+- [A.19.ULSAM - Unified Lawful Scale Aggregation Mechanism](41-a19ulsam-a19ulsam-unified-lawful-scale-aggregation-mechanism-ulsam.md) — How to aggregate measures across scales without violating the rules of measurement
+- [A.19.CPM - Unified Comparison Mechanism](42-a19cpm-a19cpm-unified-comparison-mechanism-cpm.md) — How to compare two or more options systematically using their characteristics
+- [A.19.SelectorMechanism - Unified Selection Kernel](43-a19s-a19selectormechanism-unified-selection-kernel-selectormechan.md) — How to select the best option from a set using explicit criteria
+- [A.20 - Constraint Validity for Transformation Steps](44-a20-a20-constraint-validity-for-transformation-steps.md) — How to verify that each step in a transformation satisfies its constraints
+- [A.21 - Gate Decisions from Independent Check Results](45-a21-a21-gate-decisions-from-independent-check-results.md) — How to make a go/no-go decision based on multiple independent checks
+- [A.22 - Structure and Structural Views](46-a22-a22-structure-and-structural-views-struct-cal.md) — How to describe the architecture of a system and produce multiple views of it
+- [A.22.CGUS - Constraint-Governed Unfolding Structure](47-a22cgus-a22cgus-constraint-governed-unfolding-structure.md) — How a structure unfolds step by step under its governing constraints

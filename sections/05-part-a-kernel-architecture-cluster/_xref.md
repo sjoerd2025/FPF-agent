@@ -1,6 +1,6 @@
 # Cross-References into 05-part-a-kernel-architecture-cluster
 
-Patterns in other Parts that reference patterns in this directory (274 refs).
+Patterns in other Parts that reference patterns in this directory (288 refs).
 
 ## From 06-cluster-aiva-signature-stack-boundary-discipline-a6
 
@@ -148,6 +148,8 @@ Patterns in other Parts that reference patterns in this directory (274 refs).
 | B.3 | coordinates_with | A.22 |
 | B.4 | builds_on | A.4 |
 | B.5.3 | builds_on | A.2 |
+| B.5.FM | coordinates_with | A.3.3 |
+| B.5.MPC | coordinates_with | A.3.3 |
 
 ## From 09-part-c-kernel-extension-specifications
 
@@ -156,6 +158,8 @@ Patterns in other Parts that reference patterns in this directory (274 refs).
 | C.1 | builds_on | A.1 |
 | C.1 | builds_on | A.22 |
 | C.1 | builds_on | A.3.4 |
+| C.16.IR | coordinates_with | A.3.3.PI |
+| C.16.MR | coordinates_with | A.3.3 |
 | C.17 | builds_on | A.1.1 |
 | C.17 | coordinates_with | A.3.1 |
 | C.17 | coordinates_with | A.3.2 |
@@ -183,8 +187,13 @@ Patterns in other Parts that reference patterns in this directory (274 refs).
 | C.27.TA | coordinates_with | A.21 |
 | C.28 | coordinates_with | A.2.4 |
 | C.28 | coordinates_with | A.3.2 |
+| C.28.MR | coordinates_with | A.3.3.TR |
 | C.29 | builds_on | A.1.1 |
 | C.29 | builds_on | A.3.3 |
+| C.29.1 | coordinates_with | A.3.3 |
+| C.29.2 | coordinates_with | A.3.3 |
+| C.29.3 | coordinates_with | A.3.3 |
+| C.29.BB | coordinates_with | A.3.3.TR |
 | C.3 | builds_on | A.1 |
 | C.3 | builds_on | A.2.6 |
 | C.3.1 | builds_on | A.1 |
@@ -235,6 +244,8 @@ Patterns in other Parts that reference patterns in this directory (274 refs).
 | C.36.P | coordinates_with | A.3.2 |
 | C.37 | coordinates_with | A.2.4 |
 | C.37 | coordinates_with | A.22 |
+| C.39 | coordinates_with | A.3.1 |
+| C.39.RO | coordinates_with | A.3.1 |
 
 ## From 10-part-d-multi-scale-ethics-and-conflict-optimization
 
@@ -261,6 +272,9 @@ Patterns in other Parts that reference patterns in this directory (274 refs).
 | E.10.ARCH | coordinates_with | A.3.4 |
 | E.10.D1 | coordinates_with | A.1.1 |
 | E.10.D1 | coordinates_with | A.2.6 |
+| E.10.DEV | builds_on | A.3.4.P |
+| E.10.DEV | builds_on | A.2.2 |
+| E.10.DEV | builds_on | A.3.3 |
 | E.10.MOVE | builds_on | A.3.4.P |
 | E.10.MOVE | coordinates_with | A.21 |
 | E.11.PUR | coordinates_with | A.21 |

@@ -30,7 +30,7 @@ Typical triggers include:
 
 **Not this pattern when.**
 
-- For one-off wording repair, use the applicable wording rule—E.10, E.10.ARCH, or A.6.P—or the subject pattern.
+- For one-off wording repair, use F.19; use E.10, E.10.ARCH, A.6.P, or the subject pattern when a meaning still needs recovery.
 - If the governed subject or relation is not yet known, recover it first. For an unsettled U-kind proposal, use E.24.CD when the object is unclear and E.24.UK for admission.
 - To constitute a `SystemRoleKindDescription`, use F.4. To assign a system, use A.2.1. For precise performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the dated occurrence; add F.6 only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 - For an obtaining relation between different local-sense projections, use F.9. Use F.17 when a public, Core-facing, durable, or cross-local row is needed.
@@ -88,7 +88,7 @@ If any fact is missing, stop at the subject-recovery route; naming cannot supply
 9. introduce a policy identifier for an already recovered policy specification; or
 10. block or lower the naming use.
 
-The smallest result is one readable sentence, not a mandatory record: state what the expression will designate for the proposed use, the selected disposition, the boundary that must not be inferred, and the change that would reopen the decision. For example: “For local review-method prose, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole`; this names neither an assignment nor performed Work; revisit the decision if the proposed use becomes public or cross-local.”
+The smallest result is one readable sentence, not a mandatory record: state the governed subject, proposed naming use, selected disposition, resulting name when any, and the change that would reopen the decision. Add a non-use boundary only when `F.19`'s grounded-contribution test admits it. For example, when no lighter disposition supports a needed durable local designation: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
 
 The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesignation`, `aliasOnly`, `reuseDirectPatternName`, `reuseAdmittedTermRow`, `nameSystemRoleKindDescription`, `openDurableNamingSettlement`, `proposePublicTermRow`, `introducePolicyIdentifier`, and `blockOrLowerUse`. They are not new `U.*` kinds. A stronger result opens its subject pattern; it does not itself create a card, row, identifier, policy specification, or relation occurrence.
 
@@ -155,13 +155,13 @@ After A.2 and C.3 have recovered `K`, apply the naming ladder. Keep a one-off ex
 
 F.8 consumes one named F.17 row and its declared use; it neither constitutes the row nor defines Bridge strength. F.17 keeps the row episteme, governed value, designations, cell, basis relation, any F.9 Bridge, edition relation, and publication package distinct. F.8 asks only whether `AdmissibleUse` covers the proposed naming use.
 
-| Declared row use | F.8 admissible naming use | Non-admissible overread |
+| Declared row use | F.8 admissible naming use | Other claims return to |
 | --- | --- | --- |
-| Naming-only | Shared prose label, glossary text, teaching label | equivalence, assignment, performed Work, structural inference, measurement equivalence |
-| System-role-kind designation naming | A designation may cite the row as a comparison aid after the local kind is recovered | kind admission, cross-local kind identity, classification, or assignment by row alone |
-| System-role-kind-description naming | A label for a separately justified `SystemRoleKindDescription` may cite the row as a comparison aid | treating the description as the kind, cross-local kind identity, or assignment by row alone |
-| Measurement naming | Shared measurement label where units and procedure constraints remain visible | procedure interchange without the measurement pattern |
-| Type-structure naming | Name for an admitted structural relation under the row's invariants | U-kind admission without `E.24.UK` |
+| Naming-only | Shared prose label, glossary text, teaching label | The direct subject pattern for the claim actually needed—for example equivalence, assignment, performed Work, structural inference, or measurement equivalence. |
+| System-role-kind designation naming | A designation may cite the row as a comparison aid after the local kind is recovered | The direct result for kind admission, cross-local kind identity, classification, or assignment. |
+| System-role-kind-description naming | A label for a separately justified `SystemRoleKindDescription` may cite the row as a comparison aid | The direct result for kind identity, cross-local kind identity, or assignment; the separately justified description remains the object being named. |
+| Measurement naming | Shared measurement label where units and procedure constraints remain visible | The measurement pattern for any claim of procedure interchange. |
+| Type-structure naming | Name for an admitted structural relation under the row's invariants | `E.24.UK` for U-kind admission. |
 
 If the row does not admit the proposed use, lower the name's use or repair the F.17 row and any needed F.9 relation. Attractive wording supplies neither a stronger use nor cross-local sameness.
 
@@ -205,11 +205,11 @@ MintReuseDecisionResultEpisteme:
   ReuseCandidateRefs?:
   SelectedDisposition:
   ResultingNamingRefs?: [only objects current after the disposition]
-  NonAdmissibleOverread:
+  NonAdmissibleOverread?: [only when admitted by `F.19`'s grounded-contribution test]
   ReopenCondition:
 ```
 
-The block describes the result episteme; it is not the decision or choice occurrence. `EntityOfConcernRef` resolves to the occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis show why that occurrence exists. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. A C.11 `ChoiceResult` and dated decision-making Work remain separate. A record identifier, completed field set, NameCard, row, or publication creates none of them. If the occurrence and its governor cannot be recovered, do not instantiate the block: return the A.6.RCD `missing-governor` result. If no result episteme is needed, keep the distinctions in prose and stop with the ordinary result.
+The block describes the result episteme. `EntityOfConcernRef` resolves to the decision or choice occurrence admitted through `DecisionGovernorLocator`; the predicate, participants, applicability, and identity basis show why that occurrence exists. `GovernedValueSubjectPatternLocator` identifies the pattern for the value being named. `NonAdmissibleOverread` is included only when admitted by `F.19`'s grounded-contribution test. A C.11 `ChoiceResult` and dated decision-making Work keep their direct identities and relations. If the occurrence and its governor cannot be recovered, do not instantiate the block: return the A.6.RCD `missing-governor` result. If no result episteme is needed, state the ordinary result and stop.
 
 ### F.8:5 - Invariants
 
@@ -230,7 +230,7 @@ Use these as reading checks, not as a required notation or record.
 
 | Situation | Decision |
 | --- | --- |
-| The expression is present but the governed value or relation is not known. | Stop F.8. Use E.10 for phrase repair or the subject-recovery route for the object. |
+| The expression is present but the governed value or relation is not known. | Stop F.8. Use E.10 to resolve the expression or the subject-recovery route to identify the object; ordinary wording repair uses F.19. |
 | The expression, governed value or relation, subject pattern, and proposed use are present. | Choose the lightest disposition for that value and use. The naming decision neither establishes the value nor makes a relation obtain. |
 | A local phrase or existing designation is sufficient. | Stay local or reuse it; create no cell, NameCard, row, or identifier. |
 | An alias is proposed. | Preserve the governed kind, scope, occurrence identity, admitted use, and lineage to the selected designation. |
@@ -252,7 +252,7 @@ The source label `PatternReview_2026` is not a context object. Classify the actu
 - `PatternReviewReferenceScheme-2026` can be an effective by-value `U.ReferenceScheme` for interpreting review terminology; and
 - "used while deciding the label for the 2026 review method" can be claim content describing the decision-use setting without minting any context entity.
 
-If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. This need does not require a `SystemRoleKindDescription`; use F.4 only when the practice separately needs that description. The review label defines no kind, assigns no reviewer system, and demonstrates no review Work.
+If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. The recovered kind is the governed subject; F.4 enters only for a separately needed description, A.2.1 for an assignment, and A.15.1 for performed review Work.
 
 The expression "review report has reviewer role" is a different case. `ReviewReport-82` is an episteme. An evidence, source, or publication relation may later use it for an adequacy claim about a reviewed pattern; the report is not a `U.System`, is not classified by the review-system-role kind, and cannot enter its assignment relation. Its title establishes neither evidence use nor publication authority.
 
@@ -282,7 +282,7 @@ A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8
 
 The `ReviewerRole` case closes with one readable result. The recovered kind is a local `U.Kind` for `U.System` candidates, distinguished by its stable review contribution and tested by its `KindSignature`; any assignment remains separate. The result is:
 
-> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. This result creates no `SystemRoleKindDescription`, assignment, review Work, evidence use, or publication. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local.
+> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local, or if another change of use or audience exceeds this local settlement's scope.
 
 That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 
@@ -342,7 +342,7 @@ Rules:
 | `CC-F8-11` | A locality label such as `PatternReview_2026` is interpreted as the Work, plan, claim content, ReferenceScheme, or other object actually present; the label creates none of them. |
 | `CC-F8-12` | An unsettled U-kind proposal receives only `blockOrLowerUse` and the needed E.24.CD or E.24.UK route. Naming reopens only for the object identified by a stable admission result. |
 | `CC-F8-13` | A policy identifier resolves its specification and scope. When its mint history is cited, replayed, normative, cross-local, or accountable, the occurrence basis required by §8.1 is also recoverable; otherwise that stronger claim returns `missing-governor`. |
-| `CC-F8-14` | The result states the boundary that must not be inferred and the smallest change that reopens the decision. |
+| `CC-F8-14` | The result states the governed subject, selected disposition, admitted naming use, and smallest change that reopens the decision. Any non-use boundary passes `F.19`'s grounded-contribution test. |
 
 ### F.8:9 - Common Anti-Patterns and How to Avoid Them
 
@@ -382,7 +382,7 @@ Costs:
 - If F.14, F.5, F.17, or F.18 changes the lightest-sufficient naming ladder, row-entry threshold, `AdmissibleUse`, or escalation to a stronger naming object, revisit §§0 and 4.1–4.4, case 7.2, checks 03–09, and the compact corpus entry.
 - If A.2, C.3, F.4, A.2.1, A.13, A.15.1, or F.6 changes how a local system-role kind is recovered, how `L`, `K`, `D`, and `A` relate, how an exact actual performer and Work are admitted, or when precise assignment-bound attribution enters, revisit the corresponding target rows, step 7, §4.3, cases 7.1, 7.3, and 7.6, invariant 4, and checks 06–08.
 - If A.6.RCD, C.11, C.2.1, or A.15.1 changes how a decision or choice occurrence, result, result episteme, decision-making Work, or missing governor is established, revisit §4.5, the accountable stop in 7.6, invariant 6, and check 10.
-- If E.24.CD, E.24.UK, A.8, or A.11 changes object recovery, admission dispositions, or the admission-before-naming order, revisit the entry and non-use boundary, the pre-admission target and step 11, case 7.5, invariant 8, and check 12.
+- If E.24.CD, E.24.UK, A.8, or A.11 changes object recovery, admission dispositions, or the admission-before-naming order, revisit the entry and ordinary conditions for use, stopping, or returning, the pre-admission target and step 11, case 7.5, invariant 8, and check 12.
 - If the policy subject pattern, E.9, A.6.RCD, C.11, or C.2.1 changes the policy specification–identifier distinction or the support required for mint history, revisit the policy target, step 10, case 7.4, §8.1, invariant 9, and checks 10 and 13.
 - If a source used in §12 changes a distinction that F.8 adopted, or a better current source preserves the needed precision and readability at lower use cost, revisit that source row and only the F.8 loci named by it.
 
@@ -421,7 +421,7 @@ The accountable branch follows the same rule. A decision occurrence, C.2.1 resul
 
 ### F.8:13 - Relations
 
-**Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
+**Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.19`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
 
 **Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.6.RCD`, `A.15`, `A.15.1`, `C.11`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, and `E.24.PUB`, plus the subject pattern for any other governed value.
 

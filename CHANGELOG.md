@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-09-15
+
+### What's New
+- The searchable spec grew to **115,322 lines** (379 sections, 382 indexed patterns) — its largest expansion to date, covering more specialized domains than ever before.
+- **Nineteen domain-specific principle frameworks** (the Engineering DPF Suite) are now part of the index: systems engineering, corporate finance, maintenance engineering, operations management, organization change, strategy, human capability development, management accounting, method engineering, research method practice, semantic integration engineering, and more. When you bring a problem from one of these fields, the skill can now draw on structured domain knowledge rather than general-purpose patterns alone.
+- **Mathematical modeling and practice patterns** — new guidance for how to use mathematical structures in a working project: building a first model, connecting physical intuition to formal description, transferring results across domains, and keeping the mathematical and computational views aligned.
+- **Narrativization framework** — new support for analyzing or designing how information gets turned into a story, explanation, or publication for an audience.
+- **USING-FPF guide** — a new practical onboarding document explaining how to get value from the framework without reading the whole spec first.
+- All section indexes were refreshed with plain-language summaries so it is easier to find the right pattern when you're not sure which part of the spec covers your situation.
+- The quick glossary was upgraded with plain-language definitions for all 50 key terms.
+
+### All Changes
+- **chore**: sync upstream + rebuild + AI-enhanced indexes
+- **chore**: sync upstream + rebuild + AI-enhanced indexes (v0.12.0)
+
 ## 2026-09-01
 
 ### What's New

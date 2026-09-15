@@ -1,6 +1,6 @@
 # Cross-References into 06-cluster-aiva-signature-stack-boundary-discipline-a6
 
-Patterns in other Parts that reference patterns in this directory (222 refs).
+Patterns in other Parts that reference patterns in this directory (231 refs).
 
 ## From 05-part-a-kernel-architecture-cluster
 
@@ -12,6 +12,8 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | A.1.1 | coordinates_with | A.6.5 |
 | A.1.CSD | coordinates_with | A.6.RCD |
 | A.1.SCR | coordinates_with | A.6.RCD |
+| A.11 | builds_on | A.6.P |
+| A.11 | builds_on | A.6.RCD |
 | A.2 | builds_on | A.6.REL |
 | A.2 | coordinates_with | A.6.RSIR |
 | A.2.1 | builds_on | A.6.REL |
@@ -44,6 +46,7 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | A.3.2 | coordinates_with | A.6.1 |
 | A.3.2 | coordinates_with | A.6.5 |
 | A.3.3 | coordinates_with | A.6.1 |
+| A.3.3.CC | coordinates_with | A.6.3.RT |
 | A.3.4 | builds_on | A.6.RCD |
 | A.3.4 | coordinates_with | A.6.REL |
 | A.3.4 | coordinates_with | A.6.1 |
@@ -74,6 +77,7 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | A.15.6 | coordinates_with | A.6.1 |
 | A.15.8 | builds_on | A.6.RCD |
 | A.15.PROD | builds_on | A.6.RCD |
+| A.15.PROD | coordinates_with | A.6.1 |
 | A.15.PROD | coordinates_with | A.6.P |
 | A.16.2 | coordinates_with | A.6.P |
 | A.19 | builds_on | A.6.5 |
@@ -118,6 +122,8 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | B.5.2.0 | coordinates_with | A.6.P |
 | B.5.2.0 | coordinates_with | A.6.A |
 | B.5.3 | builds_on | A.6.5 |
+| B.5.MPC | coordinates_with | A.6.3.RT |
+| B.5.RC | coordinates_with | A.6.3.RT |
 
 ## From 09-part-c-kernel-extension-specifications
 
@@ -132,6 +138,7 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | C.2.1 | builds_on | A.6.0 |
 | C.2.1 | builds_on | A.6.5 |
 | C.2.2a | used_by | A.6.A |
+| C.2.8 | coordinates_with | A.6.3.NAR |
 | C.2.P | builds_on | A.6.P |
 | C.2.P.DR | coordinates_with | A.6.1 |
 | C.20 | builds_on | A.6.REL |
@@ -155,6 +162,8 @@ Patterns in other Parts that reference patterns in this directory (222 refs).
 | C.29 | builds_on | A.6.RCD |
 | C.29 | builds_on | A.6.3.RT |
 | C.29 | builds_on | A.6.3.CSC |
+| C.29.2 | coordinates_with | A.6.3.RT |
+| C.29.3 | coordinates_with | A.6.1 |
 | C.3.1 | builds_on | A.6.REL |
 | C.3.2 | builds_on | A.6.0 |
 | C.3.3 | coordinates_with | A.6.REL |

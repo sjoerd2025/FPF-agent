@@ -1,6 +1,6 @@
 # Cross-References into 13-part-g-discipline-sota-patterns-kit
 
-Patterns in other Parts that reference patterns in this directory (164 refs).
+Patterns in other Parts that reference patterns in this directory (161 refs).
 
 ## From 05-part-a-kernel-architecture-cluster
 
@@ -70,6 +70,7 @@ Patterns in other Parts that reference patterns in this directory (164 refs).
 | B.1.6 | coordinates_with | G.11 |
 | B.3 | builds_on | G.6 |
 | B.3 | coordinates_with | G.11 |
+| B.3.4 | coordinates_with | G.11 |
 | B.5.2.1 | coordinates_with | G.5 |
 
 ## From 09-part-c-kernel-extension-specifications
@@ -121,10 +122,6 @@ Patterns in other Parts that reference patterns in this directory (164 refs).
 | C.28 | builds_on | G.5 |
 | C.28 | builds_on | G.9 |
 | C.28 | coordinates_with | G.11 |
-| C.29 | coordinates_with | G.5 |
-| C.29 | coordinates_with | G.9 |
-| C.29 | coordinates_with | G.2 |
-| C.29 | coordinates_with | G.10 |
 | C.30 | coordinates_with | G.5 |
 | C.30.AD | coordinates_with | G.5 |
 | C.30.ILC | coordinates_with | G.5 |

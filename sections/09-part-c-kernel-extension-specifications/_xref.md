@@ -1,6 +1,6 @@
 # Cross-References into 09-part-c-kernel-extension-specifications
 
-Patterns in other Parts that reference patterns in this directory (369 refs).
+Patterns in other Parts that reference patterns in this directory (419 refs).
 
 ## From 05-part-a-kernel-architecture-cluster
 
@@ -20,10 +20,16 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | A.1.CSD | coordinates_with | C.28 |
 | A.1.CSD | coordinates_with | C.29 |
 | A.1.CSD | coordinates_with | C.30.ILC |
+| A.1.CSD | coordinates_with | C.11.DUA |
 | A.1.CSD | coordinates_with | C.11.CRC |
 | A.1.CSD | coordinates_with | C.11 |
+| A.1.RI | builds_on | C.2.1 |
+| A.1.RI | coordinates_with | C.16.MR |
+| A.1.RI | coordinates_with | C.16.IR |
+| A.1.RI | coordinates_with | C.11.DUA |
 | A.1.STM | coordinates_with | C.30 |
 | A.1.STM | coordinates_with | C.28 |
+| A.11 | builds_on | C.3 |
 | A.2 | builds_on | C.3 |
 | A.2 | builds_on | C.3.1 |
 | A.2 | builds_on | C.3.2 |
@@ -58,6 +64,13 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | A.3.3 | coordinates_with | C.27 |
 | A.3.3 | coordinates_with | C.27.TA |
 | A.3.3 | coordinates_with | C.29 |
+| A.3.3 | coordinates_with | C.16 |
+| A.3.3.CC | coordinates_with | C.29.1 |
+| A.3.3.CC | coordinates_with | C.29.2 |
+| A.3.3.PI | coordinates_with | C.16 |
+| A.3.3.PI | coordinates_with | C.29.1 |
+| A.3.3.TR | coordinates_with | C.29.1 |
+| A.3.3.TR | coordinates_with | C.29.2 |
 | A.3.4 | builds_on | C.2.1 |
 | A.3.4 | coordinates_with | C.13 |
 | A.3.4 | coordinates_with | C.27.TA |
@@ -91,6 +104,8 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | A.6.3.RT | builds_on | C.2.1 |
 | A.6.3.RT | coordinates_with | C.26 |
 | A.6.3.RT | coordinates_with | C.29 |
+| A.6.3.RT.OE | coordinates_with | C.37 |
+| A.6.3.RT.OE | coordinates_with | C.2.8 |
 | A.6.4 | builds_on | C.2.1 |
 | A.6.4 | builds_on | C.29 |
 | A.6.4 | coordinates_with | C.2 |
@@ -137,6 +152,9 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | A.10 | coordinates_with | C.28 |
 | A.10 | coordinates_with | C.11 |
 | A.10.1 | builds_on | C.2.1 |
+| A.11.OP | coordinates_with | C.11.DUA |
+| A.11.OP | coordinates_with | C.11 |
+| A.11.OP | coordinates_with | C.19.2 |
 | A.12 | coordinates_with | C.13 |
 | A.12 | coordinates_with | C.2.1 |
 | A.13 | coordinates_with | C.16 |
@@ -159,8 +177,10 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | A.15.8 | builds_on | C.2.1 |
 | A.15.8 | coordinates_with | C.30 |
 | A.15.9 | builds_on | C.2.1 |
+| A.15.9 | coordinates_with | C.11.DUA |
 | A.15.9 | coordinates_with | C.38 |
 | A.15.PROD | builds_on | C.2.1 |
+| A.15.PROD | coordinates_with | C.2.P |
 | A.16 | builds_on | C.2.2 |
 | A.16 | builds_on | C.2.LS |
 | A.16.0 | builds_on | C.2.2 |
@@ -244,10 +264,15 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | B.3 | builds_on | C.16.Q |
 | B.3 | coordinates_with | C.28 |
 | B.3 | coordinates_with | C.29 |
+| B.3.3 | coordinates_with | C.28 |
+| B.3.4 | coordinates_with | C.11 |
+| B.3.4 | coordinates_with | C.19.2 |
+| B.3.4 | coordinates_with | C.27.TA |
 | B.3.5 | builds_on | C.13 |
 | B.4.1 | builds_on | C.2.2 |
 | B.4.1 | coordinates_with | C.16.Q |
 | B.4.1 | coordinates_with | C.22.1 |
+| B.5 | coordinates_with | C.29 |
 | B.5.2.0 | builds_on | C.2.2 |
 | B.5.2.0 | coordinates_with | C.16.Q |
 | B.5.2.1 | builds_on | C.17 |
@@ -255,12 +280,30 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | B.5.2.1 | builds_on | C.19 |
 | B.5.2.1 | coordinates_with | C.11 |
 | B.5.3 | builds_on | C.3 |
+| B.5.4 | coordinates_with | C.3 |
+| B.5.4 | coordinates_with | C.29 |
+| B.5.FM | coordinates_with | C.29 |
+| B.5.FM | coordinates_with | C.16 |
+| B.5.MPC | coordinates_with | C.16 |
+| B.5.MPC | coordinates_with | C.29 |
+| B.5.MPC | coordinates_with | C.29.1 |
+| B.5.MPC | coordinates_with | C.29.2 |
+| B.5.MPC | coordinates_with | C.29.3 |
+| B.5.MPC | coordinates_with | C.39 |
+| B.5.QD | coordinates_with | C.39 |
+| B.5.RC | coordinates_with | C.29.1 |
+| B.5.TC | coordinates_with | C.29.1 |
+| B.5.TC | coordinates_with | C.29.2 |
+| B.5.TC | coordinates_with | C.28 |
+| B.5.TC | coordinates_with | C.11.DUA |
+| B.5.TU | coordinates_with | C.29 |
 
 ## From 10-part-d-multi-scale-ethics-and-conflict-optimization
 
 | Source | Relation | Target |
 |--------|----------|--------|
 | D.1 | coordinates_with | C.11 |
+| D.1 | coordinates_with | C.11.DUA |
 | D.2 | builds_on | C.30.ILC |
 | D.2 | coordinates_with | C.16 |
 | D.3 | builds_on | C.13 |
@@ -294,6 +337,11 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | E.10.D1 | coordinates_with | C.30 |
 | E.10.D2 | builds_on | C.2.1 |
 | E.10.D2 | builds_on | C.2.3 |
+| E.10.DEV | builds_on | C.17 |
+| E.10.DEV | builds_on | C.27.TA |
+| E.10.DEV | builds_on | C.29 |
+| E.10.DEV | builds_on | C.36 |
+| E.10.DEV | coordinates_with | C.36.P |
 | E.10.MOVE | coordinates_with | C.24 |
 | E.10.MOVE | coordinates_with | C.30 |
 | E.11.DSG | coordinates_with | C.2.P |
@@ -353,6 +401,8 @@ Patterns in other Parts that reference patterns in this directory (369 refs).
 | E.4 | coordinates_with | C.34 |
 | E.4 | coordinates_with | C.35 |
 | E.4.DPF | coordinates_with | C.33 |
+| E.4.DPF | coordinates_with | C.34 |
+| E.4.DPF | coordinates_with | C.35 |
 | E.4.DPF.DA | coordinates_with | C.33 |
 | E.4.DPF.DA | coordinates_with | C.34 |
 | E.4.DPF.DA | coordinates_with | C.35 |

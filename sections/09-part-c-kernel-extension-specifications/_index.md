@@ -1,81 +1,96 @@
 # Part C - Kernel Extension Specifications
 
-- [C.2 - Epistemic holon composition (KD-CAL) (C.2)](01-c2-c2-epistemic-holon-composition-kd-cal.md) — How to measure and compare knowledge bodies using formality, scope, and reliability as declared characteristics.
-- [C.2.1 - U.Episteme: Constitution, Empirical Grounding, and Edition Relations (C.2.1)](02-c21-c21-uepisteme-constitution-empirical-grounding-and-edition-r.md) — How to identify a knowledge body by its exact claims, entity of concern, and reference scheme.
-- [C.2.P - Epistemic Precision Restoration (C.2.P)](03-c2p-c2p-epistemic-precision-restoration.md) — How to fix language that blurs different kinds of knowledge claims into one another.
-- [C.2.2 - Reliability R in the F–G–R triad (C.2.2)](04-c22-c22-reliability-r-in-the-fgr-triad.md) — How to declare and compute the reliability of a knowledge body for a stated use.
-- [C.2.2a - U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace (C.2.2)](05-c22-c22a-ulanguagestatespace-language-state-chart-over-ucharacte.md) — How to chart the possible language-state positions of a claim across a formality space.
-- [C.2.3 - Unified Formality Characteristic F (C.2.3)](06-c23-c23-unified-formality-characteristic-f.md) — How to measure how formal a claim or document is using a declared scale.
-- [C.2.LS - U.LanguageStateFacetProfile - Thin profile bundle for language-state facets (C.2.LS)](07-c2ls-c2ls-ulanguagestatefacetprofile-thin-profile-bundle-for-lang.md) — How to bundle language-state measurements into a lightweight profile for a claim.
-- [C.2.4 - U.ArticulationExplicitness (C.2.4)](08-c24-c24-uarticulationexplicitness.md) — How to declare how explicitly a claim or concept is articulated.
-- [C.2.5 - U.LanguageStateClosureDegree (C.2.5)](09-c25-c25-ulanguagestateclosuredegree.md) — How to measure how closed or complete the language state of a claim is.
-- [C.2.6 - U.LanguageStateAnchoringMode (C.2.6)](10-c26-c26-ulanguagestateanchoringmode.md) — How to declare how a claim's language is anchored to a reference point.
-- [C.2.7 - U.LanguageStateRepresentationFactorBundle (C.2.7)](11-c27-c27-ulanguagestaterepresentationfactorbundle.md) — A bundle of representation factors for tracking language-state across multiple dimensions.
-- [C.2.P.DR - Declarative Representation Precision Restoration (C.2.P)](12-c2p-c2pdr-declarative-representation-precision-restoration.md) — How to fix language that blurs declarative representations with the things they represent.
-- [C.3 - Kinds, Intent and Extent, and Typed Reasoning (C.3)](13-c3-c3-kinds-intent-and-extent-and-typed-reasoning.md) — How to define what kind of thing something is, what membership means, and what is included.
-- [C.3.1 - U.Kind and U.SubkindOf Core (C.3.1)](14-c31-c31-ukind-and-usubkindof-core.md) — How to admit and relate kinds in a type hierarchy.
-- [C.3.2 - Kind Intent, Membership Judgment, and Extension (C.3.2)](15-c32-c32-kind-intent-membership-judgment-and-extension.md) — How to state who or what qualifies as a member of a kind.
-- [C.3.3 - KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds (C.3.3)](16-c33-c33-kindbridge-and-clk-cross-local-correspondence-between-di.md) — How to establish a governed correspondence between distinct kinds across contexts.
-- [C.3.4 - KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning (C.3.4)](17-c34-c34-kinduseadaptationdeclaration-contextual-adaptation-of-ki.md) — How to adapt a kind for a context without creating a fork or new root kind.
-- [C.3.5 - KindAT — Intentional Abstraction Facet for Kinds (K0…K3) (C.3.5)](18-c35-c35-kindat-intentional-abstraction-facet-for-kinds-k0k3.md) — How to assign an abstraction level to a kind from concrete to fully abstract.
-- [C.3.A - Typed Guard Macros for Kinds + USM (Annex) (C.3.A)](19-c3a-c3a-typed-guard-macros-for-kinds-usm-annex.md) — Reusable guards for kinds combined with scope checks.
-- [C.11 - Decision Theory (Decsn-CAL) (C.11)](20-c11-c11-decision-theory-decsn-cal.md) — How to choose among already-formed options when the question is which one to select.
-- [C.11.CRC - Configuration-Relative Contribution Comparison (C.11.CRC)](21-c11crc-c11crc-configuration-relative-contribution-comparison.md) — How to compare the contribution of one option relative to others in a given configuration.
-- [C.13 — Constructional Mereology (Compose‑CAL) (C.13)](22-c13-c13-constructional-mereology-composecal.md) — How to show how identified entities and relations assemble into a whole, collection, or aspect.
-- [C.16 - Measurement & Metrics Characterization (MM‑CHR) (C.16)](23-c16-c16-measurement-metrics-characterization-mmchr.md) — How to connect a number to a named measurand, scale, method, uncertainty, and time stance.
-- [C.16.P - Characteristic and Scale Precision Restoration (C.16.P)](24-c16p-c16p-characteristic-and-scale-precision-restoration.md) — How to fix measurement language that hides the measurand or scale being used.
-- [C.16.Q - Quality-Term Precision Restoration (C.16.Q)](25-c16q-c16q-quality-term-precision-restoration.md) — How to fix quality words like 'reliable' or 'safe' to name the actual characteristic and scale.
-- [C.17 - Characterising Generative Novelty and Value (C.17)](26-c17-c17-characterising-generative-novelty-and-value.md) — How to measure novelty, quality diversity, and value for generated candidates.
-- [C.18 - Open-Ended Search Archive and Front Stewardship (C.18)](27-c18-c18-open-ended-search-archive-and-front-stewardship.md) — How to maintain a live frontier of best-known options without collapsing it prematurely.
-- [C.18.1 - Scaling‑Law Lens Binding (SLL) (C.18.1)](28-c181-c181-scalinglaw-lens-binding-sll.md) — How to bind a scaling-law lens to a search to predict where effort is most productive.
-- [C.19 - Explore-Exploit Live-Pool Governor (C.19)](29-c19-c19-explore-exploit-live-pool-governor.md) — How to govern a live pool of options, balancing exploration against exploitation.
-- [C.19.1 - Bitter‑Lesson Preference (BLP) (C.19.1)](30-c191-c191-bitterlesson-preference-blp.md) — How to apply a preference for general-search approaches over domain-specific hand-crafting.
-- [C.19.2 - Use-Bounded Apparatus Application (C.19.2)](31-c192-c192-use-bounded-apparatus-application.md) — How to apply a general apparatus within a declared use boundary without overgeneralizing.
-- [C.20 - Composition of U.Discipline (Discipline-CAL) (C.20)](32-c20-c20-composition-of-udiscipline-discipline-cal.md) — How to identify a discipline as a whole with parts, identity, and cross-scale relations.
-- [C.21 - Field Health & Structure (Discipline-CHR) (C.21)](33-c21-c21-field-health-structure-discipline-chr.md) — How to assess whether a discipline is healthy, well-structured, and moving forward.
-- [C.22 - Task Typing and TaskSignature Assignment (Problem-CHR) (C.22)](34-c22-c22-task-typing-and-tasksignature-assignment-problem-chr.md) — How to assign a type signature to a problem so methods can be matched to it.
-- [C.22.1 - Task-family adaptation signature (C.22.1)](35-c221-c221-task-family-adaptation-signature.md) — How to adapt a task signature for a specific family of tasks.
-- [C.22.PFR - Problematic-For Relation (C.22.PFR)](36-c22pfr-c22pfr-problematic-for-relation.md) — How to state which system or party a problem is problematic for.
-- [C.22.2 - ProblemCard (C.22.2)](37-c222-c222-problemcard.md) — How to frame a messy situation as a well-formed problem that later work can address.
-- [C.23 - MethodFamily Evidence & Maturity (Method‑SoS‑LOG) (C.23)](38-c23-c23-methodfamily-evidence-maturity-methodsoslog.md) — How to assess the evidence base and maturity of a family of methods.
-- [C.24 - Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL) (C.24)](39-c24-c24-agentic-tool-use-and-call-planning-cagent-tools-cal.md) — How to plan which tools an agent should call and in what order.
-- [C.25 - Q-Bundle: Authoring "-ilities" as Structured Quality Bundles (C.25)](40-c25-c25-q-bundle-authoring-ilities-as-structured-quality-bundles.md) — How to describe quality requirements as a structured bundle of named characteristics.
-- [C.26 - Quantum-Like Modeling Lens (C.26)](41-c26-c26-quantum-like-modeling-lens.md) — How to apply quantum-inspired models to situations with superposition-like uncertainty or observation effects.
-- [C.26.1 - Probe-Coupled Boundary Interaction (C.26.1)](42-c261-c261-probe-coupled-boundary-interaction.md) — How to model interactions where observation changes the boundary being observed.
-- [C.26.2 - Enacted Distributed State Evidence (C.26.2)](43-c262-c262-enacted-distributed-state-evidence.md) — How to gather evidence of distributed state that is only visible through action.
-- [C.26.3 - Viability-Envelope Boundary Regulation (C.26.3)](44-c263-c263-viability-envelope-boundary-regulation.md) — How to regulate a system at the boundary of its viable operating range.
-- [C.27 - Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change (C.27)](45-c27-c27-temporal-claim-adequacy-state-readings-temporal-trends-a.md) — How to check that a claim's time window, stance, and trend are explicitly stated.
-- [C.27.TA - Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness (C.27.TA)](46-c27ta-c27ta-temporal-aspect-time-windows-rhythm-cadence-and-curren.md) — How to declare time windows, rhythm, cadence, and currentness for a claim.
-- [C.28 - CausalUse-CAL: Causal-Use Questions, Identification, and Realizability (C.28)](47-c28-c28-causaluse-cal-causal-use-questions-identification-and-re.md) — How to identify and bound the causal question before using causal language in a decision.
-- [C.29 - Mathematical Lens Use (C.29)](48-c29-c29-mathematical-lens-use.md) — How to apply a mathematical model as a lens without claiming the model is the world.
-- [C.30 - Grounded Architecture and Selected-Structure Adequacy (C.30)](49-c30-c30-grounded-architecture-and-selected-structure-adequacy.md) — How to confirm that an architecture claim is grounded in actual selected structure.
-- [C.30.AD - Architecture Description Adequacy (C.30.AD)](50-c30ad-c30ad-architecture-description-adequacy.md) — How to check that an architecture description covers what it claims to describe.
-- [C.30.AD.BA - Built-Asset Architecture Description and Reference Designation (C.30.AD)](51-c30ad-c30adba-built-asset-architecture-description-and-reference-d.md) — How to describe architecture for physical built assets with appropriate reference designation.
-- [C.30.P - Architecture and Structure Precision Restoration (C.30.P)](52-c30p-c30p-architecture-and-structure-precision-restoration.md) — How to fix architecture language that hides the actual structure being claimed.
-- [C.30.STRAT - Stratification Wording Precision Restoration (C.30.STRAT)](53-c30strat-c30strat-stratification-wording-precision-restoration.md) — How to fix stratification language that blurs layers or levels.
-- [C.30.ASV - Architecture Structural View Adequacy (ASV) (C.30.ASV)](54-c30asv-c30asv-architecture-structural-view-adequacy-asv.md) — How to check that a structural view adequately represents its subject.
-- [C.30.LCA - Control Structure View Adequacy (LCA) (C.30.LCA)](55-c30lca-c30lca-control-structure-view-adequacy-lca.md) — How to check that a control structure view captures the actual control relationships.
-- [C.30.ILC - Cross-Scope Architecture Residual Triage (C.30.ILC)](56-c30ilc-c30ilc-cross-scope-architecture-residual-triage.md) — How to handle architecture issues that span multiple scopes.
-- [C.30.TFS-REL - Architecture Transformation-Flow Structure Relation (C.30.TFS)](57-c30tfs-c30tfs-rel-architecture-transformation-flow-structure-relati.md) — How to state the relation between an architecture and the flow that changes it.
-- [C.31 - Modularity and Reusable Structure Characteristics (C.31)](58-c31-c31-modularity-and-reusable-structure-characteristics.md) — How to measure and improve how modular and reusable a system's structure is.
-- [C.31.RSA - Reusable Structure Accounting (C.31.RSA)](59-c31rsa-c31rsa-reusable-structure-accounting.md) — How to account for which structures are shared across the system.
-- [C.31.ASAP - Architecture Scale-Amenability Preference (C.31.ASAP)](60-c31asap-c31asap-architecture-scale-amenability-preference.md) — A preference for structures that remain well-behaved as they grow.
-- [C.32 - Architecture Candidate Synthesis (C.32)](61-c32-c32-architecture-candidate-synthesis.md) — How to generate architecture candidates from a problem pressure.
-- [C.32.P2S - Problem-to-Structure Architecturing Unfolding (C.32.P)](62-c32p-c32p2s-problem-to-structure-architecturing-unfolding.md) — How to unfold from a problem statement to candidate structures step by step.
-- [C.32.HCS - Architecture-Bearing Family Characteristic Starter Packs (C.32.HCS)](63-c32hcs-c32hcs-architecture-bearing-family-characteristic-starter-pa.md) — Ready-made sets of characteristics for common architecture families.
-- [C.32.ACS - Architecture Characteristic Criteria Set for Improvement Cycles (C.32.ACS)](64-c32acs-c32acs-architecture-characteristic-criteria-set-for-improvem.md) — How to define the criteria an architecture candidate must meet.
-- [C.32.ACE - Architecture Characteristic Eval Programs (C.32.ACE)](65-c32ace-c32ace-architecture-characteristic-eval-programs.md) — How to run evaluation programs against architecture characteristics.
-- [C.32.CONWAY - Architecture-Influence and Transformed-Architecture Correspondence (C.32.CONWAY)](66-c32conway-c32conway-architecture-influence-and-transformed-architectur.md) — How the organization's communication structure influences the architecture it produces.
-- [C.32.MLAO - Multilevel Architecture Residual Optimization (C.32.MLAO)](67-c32mlao-c32mlao-multilevel-architecture-residual-optimization.md) — How to handle architecture residuals that appear across levels.
-- [C.32.MWA - Practice Architecture Synthesis from Several Structures (C.32.MWA)](68-c32mwa-c32mwa-practice-architecture-synthesis-from-several-structur.md) — How to synthesize a practice architecture from multiple structural views.
-- [C.32.FAIL - Architecture Failure Recognition and Repair (C.32.FAIL)](69-c32fail-c32fail-architecture-failure-recognition-and-repair.md) — How to recognize that an architecture is failing and begin repairs.
-- [C.32.PAD - Project Architecture Decision After Candidate Synthesis (C.32.PAD)](70-c32pad-c32pad-project-architecture-decision-after-candidate-synthes.md) — How to make and record an architecture decision after candidates are synthesized.
-- [C.32.ADR - Architecture Decision Record Projection (C.32.ADR)](71-c32adr-c32adr-architecture-decision-record-projection.md) — How to project an architecture decision record for multiple audiences.
-- [C.32.ADA - Architecture Decision Adequacy Scales (C.32.ADA)](72-c32ada-c32ada-architecture-decision-adequacy-scales.md) — How to evaluate whether an architecture decision is sufficiently justified.
-- [C.33 - Structural Information Adequacy for Architecture Capture and Missing-Structure Return (C.33)](73-c33-c33-structural-information-adequacy-for-architecture-capture.md) — How much structural information is needed to capture an architecture adequately.
-- [C.34 - Structural Correspondence, Equivalence, and Morphism Adequacy (C.34)](74-c34-c34-structural-correspondence-equivalence-and-morphism-adequ.md) — How to state when two structures correspond, are equivalent, or share a morphism.
-- [C.35 - Structural Synthesis and Discovery Adequacy (C.35)](75-c35-c35-structural-synthesis-and-discovery-adequacy.md) — How to assess whether a structural synthesis covers what it claims to have discovered.
-- [C.36 - Cultural Evolution and Cultural-Evolution Engineering (C.36)](76-c36-c36-cultural-evolution-and-cultural-evolution-engineering.md) — How to describe and engineer changes in a group's shared practices and values.
-- [C.37 - Use-Bounded Representation Selection and Co-Use (C.37)](77-c37-c37-use-bounded-representation-selection-and-co-use.md) — How to choose a representation based on what a given use actually needs.
-- [C.38 - Construct Comparable Ways to Obtain One Result (C.38)](78-c38-c38-construct-comparable-ways-to-obtain-one-result.md) — How to build multiple comparable paths to the same result for fair evaluation.
-- [C.36.P - Cultural-Evolution Wording-Use Precision Restoration (C.36.P)](79-c36p-c36p-cultural-evolution-wording-use-precision-restoration.md) — How to fix cultural-evolution language that hides the actual subject or relation.
+- [C.2 - Epistemic holon composition](01-c2-c2-epistemic-holon-composition-kd-cal.md) — How to combine knowledge claims into a coherent whole without losing their individual provenance
+- [C.2.1 - U.Episteme: Constitution, Empirical Grounding, and Edition Relations](02-c21-c21-uepisteme-constitution-empirical-grounding-and-edition-r.md) — How to define a unit of knowledge with its empirical basis and version history
+- [C.2.P - Epistemic Precision Restoration](03-c2p-c2p-epistemic-precision-restoration.md) — How to sharpen vague knowledge claims into precise, grounded statements
+- [C.2.2 - Reliability R in the F–G–R triad](04-c22-c22-reliability-r-in-the-fgr-triad.md) — How to assess the reliability of a knowledge source in the formality-grounding-reliability framework
+- [C.2.2a - U.LanguageStateSpace](05-c22-c22a-ulanguagestatespace-language-state-chart-over-ucharacte.md) — How to map the space of language states a document or conversation can occupy
+- [C.2.3 - Unified Formality Characteristic F](06-c23-c23-unified-formality-characteristic-f.md) — How to measure and compare how formal different kinds of knowledge are
+- [C.2.LS - U.LanguageStateFacetProfile](07-c2ls-c2ls-ulanguagestatefacetprofile-thin-profile-bundle-for-lang.md) — How to bundle multiple language-state facets into a lightweight profile
+- [C.2.4 - U.ArticulationExplicitness](08-c24-c24-uarticulationexplicitness.md) — How to measure how explicitly something has been said versus left implicit
+- [C.2.5 - U.LanguageStateClosureDegree](09-c25-c25-ulanguagestateclosuredegree.md) — How to measure how fully a piece of language has been pinned down
+- [C.2.6 - U.LanguageStateAnchoringMode](10-c26-c26-ulanguagestateanchoringmode.md) — How to classify the way a piece of language is grounded in the world
+- [C.2.7 - U.LanguageStateRepresentationFactorBundle](11-c27-c27-ulanguagestaterepresentationfactorbundle.md) — How to capture all the factors that shape how something is represented
+- [C.2.8 - U.ExtractableStructuralInformation](12-c28-c28-uextractablestructuralinformation.md) — How to identify the structural information that can be pulled out of a text or artifact
+- [C.2.P.DR - Declarative Representation Precision Restoration](13-c2p-c2pdr-declarative-representation-precision-restoration.md) — How to fix vague declarative representations into precise ones
+- [C.3 - Kinds, Intent and Extent, and Typed Reasoning](14-c3-c3-kinds-intent-and-extent-and-typed-reasoning.md) — How to reason clearly about what something is by distinguishing its type from its instances
+- [C.3.1 - U.Kind and U.SubkindOf Core](15-c31-c31-ukind-and-usubkindof-core.md) — The foundation for defining types and their subtypes
+- [C.3.2 - Kind Intent, Membership Judgment, and Extension](16-c32-c32-kind-intent-membership-judgment-and-extension.md) — How to decide whether something is a member of a type and track all the members
+- [C.3.3 - KindBridge and Cross-local Correspondence](17-c33-c33-kindbridge-and-clk-cross-local-correspondence-between-di.md) — How to map types from different teams or domains onto each other without merging them
+- [C.3.4 - KindUseAdaptationDeclaration](18-c34-c34-kinduseadaptationdeclaration-contextual-adaptation-of-ki.md) — How to adapt a type for your context without forking it into a separate copy
+- [C.3.5 - KindAT — Intentional Abstraction Facet for Kinds](19-c35-c35-kindat-intentional-abstraction-facet-for-kinds-k0k3.md) — How to layer abstraction over a type from concrete to fully generic
+- [C.3.A - Typed Guard Macros for Kinds + USM (Annex)](20-c3a-c3a-typed-guard-macros-for-kinds-usm-annex.md) — Ready-to-use guard patterns that enforce type constraints at boundaries
+- [C.11 - Decision Theory](21-c11-c11-decision-theory-decsn-cal.md) — How to structure a decision with explicit options, criteria, and trade-offs
+- [C.11.CRC - Configuration-Relative Contribution Comparison](22-c11crc-c11crc-configuration-relative-contribution-comparison.md) — How to compare options by their contribution within a specific configuration
+- [C.11.DUA - Decision-Useful Advice and Evidence Demands](23-c11dua-c11dua-decision-useful-advice-and-evidence-demands.md) — How to give advice that is specific enough to act on and backs it with demanded evidence
+- [C.13 — Constructional Mereology](24-c13-c13-constructional-mereology-composecal.md) — How to reason about assembly: what can be built from what, and under what rules
+- [C.16 - Measurement & Metrics Characterization](25-c16-c16-measurement-metrics-characterization-mmchr.md) — How to define a measurement so it actually captures the thing you care about
+- [C.16.MR - Construct a Measurement Relation](26-c16mr-c16mr-construct-a-measurement-relation.md) — How to build the full relation between what you measure and what it represents
+- [C.16.IR - Determine What an Indication Can Resolve](27-c16ir-c16ir-determine-what-an-indication-can-resolve.md) — How to find the limits of what an indicator can and cannot tell you
+- [C.16.RM - Repair a Measurement Model or Arrangement](28-c16rm-c16rm-repair-a-measurement-model-or-arrangement.md) — How to fix a broken or misleading measurement setup
+- [C.16.P - Characteristic and Scale Precision Restoration](29-c16p-c16p-characteristic-and-scale-precision-restoration.md) — How to sharpen vague characteristic or scale descriptions into precise ones
+- [C.16.Q - Quality-Term Precision Restoration](30-c16q-c16q-quality-term-precision-restoration.md) — How to turn vague quality words like "good" or "fast" into measurable statements
+- [C.17 - Characterising Generative Novelty and Value](31-c17-c17-characterising-generative-novelty-and-value.md) — How to assess whether something genuinely new has been created and what its value is
+- [C.18 - Open-Ended Search Archive and Front Stewardship](32-c18-c18-open-ended-search-archive-and-front-stewardship.md) — How to manage the live frontier of an ongoing search without losing track of what has been tried
+- [C.18.1 - Scaling‑Law Lens Binding](33-c181-c181-scalinglaw-lens-binding-sll.md) — How to apply a scaling-law perspective to understand how performance changes with size or data
+- [C.19 - Explore-Exploit Live-Pool Governor](34-c19-c19-explore-exploit-live-pool-governor.md) — How to balance exploring new options with exploiting what already works
+- [C.19.1 - Bitter‑Lesson Preference](35-c191-c191-bitterlesson-preference-blp.md) — Why and when to prefer scalable general approaches over hand-crafted solutions
+- [C.19.2 - Use-Bounded Apparatus Application](36-c192-c192-use-bounded-apparatus-application.md) — How to apply a method only as far as its valid scope extends
+- [C.20 - Composition of U.Discipline](37-c20-c20-composition-of-udiscipline-discipline-cal.md) — How to combine disciplines without losing the integrity of each
+- [C.21 - Field Health & Structure](38-c21-c21-field-health-structure-discipline-chr.md) — How to assess the current state and maturity of a field or discipline
+- [C.22 - Task Typing and TaskSignature Assignment](39-c22-c22-task-typing-and-tasksignature-assignment-problem-chr.md) — How to classify a task precisely enough to route it to the right method
+- [C.22.1 - Task-family adaptation signature](40-c221-c221-task-family-adaptation-signature.md) — How to adapt a generic task type to fit a specific family of situations
+- [C.22.PFR - Problematic-For Relation](41-c22pfr-c22pfr-problematic-for-relation.md) — How to state explicitly what a problem is a problem for
+- [C.22.2 - ProblemCard](42-c222-c222-problemcard.md) — A structured template for capturing a problem clearly enough to act on
+- [C.23 - MethodFamily Evidence & Maturity](43-c23-c23-methodfamily-evidence-maturity-methodsoslog.md) — How to assess how mature and evidence-backed a family of methods is
+- [C.24 - Agentic Tool-Use and Call Planning](44-c24-c24-agentic-tool-use-and-call-planning-cagent-tools-cal.md) — How to plan and verify the use of tools in an agentic workflow
+- [C.25 - Q-Bundle: Authoring "-ilities" as Structured Quality Bundles](45-c25-c25-q-bundle-authoring-ilities-as-structured-quality-bundles.md) — How to turn informal quality goals like "reliability" into structured, testable requirements
+- [C.26 - Quantum-Like Modeling Lens](46-c26-c26-quantum-like-modeling-lens.md) — How to apply quantum-inspired thinking to model uncertainty and interaction effects
+- [C.26.1 - Probe-Coupled Boundary Interaction](47-c261-c261-probe-coupled-boundary-interaction.md) — How to account for the fact that observing a system changes it
+- [C.26.2 - Enacted Distributed State Evidence](48-c262-c262-enacted-distributed-state-evidence.md) — How to reason about state that is distributed across many parts of a system
+- [C.26.3 - Viability-Envelope Boundary Regulation](49-c263-c263-viability-envelope-boundary-regulation.md) — How to keep a system within the range where it remains viable
+- [C.27 - Temporal Claim Adequacy](50-c27-c27-temporal-claim-adequacy-state-readings-temporal-trends-a.md) — How to tell if a claim is time-sensitive and whether its evidence is still current
+- [C.27.TA - Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness](51-c27ta-c27ta-temporal-aspect-time-windows-rhythm-cadence-and-curren.md) — How to specify the time window, update rhythm, and freshness requirements for a claim
+- [C.28 - CausalUse-CAL: Causal-Use Questions, Identification, and Realizability](52-c28-c28-causaluse-cal-causal-use-questions-identification-and-re.md) — How to answer causal questions ("what would happen if...") with the right tools
+- [C.28.MR - Derive an Intervention Consequence by Mechanism Replacement](53-c28mr-c28mr-derive-an-intervention-consequence-by-mechanism-replac.md) — How to work out what will happen when you swap out a mechanism in a system
+- [C.29 - Mathematical Lens Use](54-c29-c29-mathematical-lens-use.md) — How to bring a mathematical framework to bear on a problem without over-formalizing it
+- [C.29.1 - Mathematical Result Transfer](55-c291-c291-mathematical-result-transfer.md) — How to safely apply a mathematical result from one domain to another
+- [C.29.2 - Computational Formulation](56-c292-c292-computational-formulation.md) — How to turn a mathematical model into a computable form
+- [C.29.3 - Computational Realization](57-c293-c293-computational-realization.md) — How to implement a computational formulation in working code or a system
+- [C.29.BB - Construct a Balance across a Boundary](58-c29bb-c29bb-construct-a-balance-across-a-boundary.md) — How to write a conservation or balance equation across a system boundary
+- [C.30 - Grounded Architecture and Selected-Structure Adequacy](59-c30-c30-grounded-architecture-and-selected-structure-adequacy.md) — How to check that the chosen architecture actually fits the problem it was designed for
+- [C.30.AD - Architecture Description Adequacy](60-c30ad-c30ad-architecture-description-adequacy.md) — How to verify that an architecture description is complete and usable
+- [C.30.AD.BA - Built-Asset Architecture Description](61-c30ad-c30adba-built-asset-architecture-description-and-reference-d.md) — How to describe the architecture of physical assets like buildings or infrastructure
+- [C.30.P - Architecture and Structure Precision Restoration](62-c30p-c30p-architecture-and-structure-precision-restoration.md) — How to sharpen vague architecture descriptions into precise, verifiable ones
+- [C.30.STRAT - Stratification Wording Precision Restoration](63-c30strat-c30strat-stratification-wording-precision-restoration.md) — How to clarify layering and abstraction claims that are expressed loosely
+- [C.30.ASV - Architecture Structural View Adequacy](64-c30asv-c30asv-architecture-structural-view-adequacy-asv.md) — How to check that a structural view captures what it claims to show
+- [C.30.LCA - Control Structure View Adequacy](65-c30lca-c30lca-control-structure-view-adequacy-lca.md) — How to verify that a control or governance structure is visible in the architecture description
+- [C.30.ILC - Cross-Scope Architecture Residual Triage](66-c30ilc-c30ilc-cross-scope-architecture-residual-triage.md) — How to triage architectural concerns that fall across scope boundaries
+- [C.30.TFS-REL - Architecture Transformation-Flow Structure Relation](67-c30tfs-c30tfs-rel-architecture-transformation-flow-structure-relati.md) — How the architecture of a system relates to the flows that transform it
+- [C.31 - Modularity and Reusable Structure Characteristics](68-c31-c31-modularity-and-reusable-structure-characteristics.md) — How to assess and improve the modularity of a system's structure
+- [C.31.RSA - Reusable Structure Accounting](69-c31rsa-c31rsa-reusable-structure-accounting.md) — How to track which parts of a structure are being reused and where
+- [C.31.ASAP - Architecture Scale-Amenability Preference](70-c31asap-c31asap-architecture-scale-amenability-preference.md) — How to favor architectures that remain workable as the system grows
+- [C.32 - Architecture Candidate Synthesis](71-c32-c32-architecture-candidate-synthesis.md) — How to generate a range of architecture candidates before choosing one
+- [C.32.P2S - Problem-to-Structure Architecturing Unfolding](72-c32p-c32p2s-problem-to-structure-architecturing-unfolding.md) — How to unfold a problem statement into candidate structures step by step
+- [C.32.HCS - Architecture-Bearing Family Characteristic Starter Packs](73-c32hcs-c32hcs-architecture-bearing-family-characteristic-starter-pa.md) — Pre-built starting points for common architecture families
+- [C.32.ACS - Architecture Characteristic Criteria Set for Improvement Cycles](74-c32acs-c32acs-architecture-characteristic-criteria-set-for-improvem.md) — How to define the criteria used to evaluate and improve an architecture
+- [C.32.ACE - Architecture Characteristic Eval Programs](75-c32ace-c32ace-architecture-characteristic-eval-programs.md) — How to run programs that evaluate whether an architecture meets its criteria
+- [C.32.CONWAY - Architecture-Influence and Transformed-Architecture Correspondence](76-c32conway-c32conway-architecture-influence-and-transformed-architectur.md) — How organizational structure and system architecture mirror and influence each other
+- [C.32.MLAO - Multilevel Architecture Residual Optimization](77-c32mlao-c32mlao-multilevel-architecture-residual-optimization.md) — How to optimize what remains after a first architectural decision at multiple levels
+- [C.32.MWA - Practice Architecture Synthesis from Several Structures](78-c32mwa-c32mwa-practice-architecture-synthesis-from-several-structur.md) — How to synthesize a practice architecture from multiple contributing structures
+- [C.32.FAIL - Architecture Failure Recognition and Repair](79-c32fail-c32fail-architecture-failure-recognition-and-repair.md) — How to recognize when an architecture is failing and repair it systematically
+- [C.32.PAD - Project Architecture Decision After Candidate Synthesis](80-c32pad-c32pad-project-architecture-decision-after-candidate-synthes.md) — How to make the final architecture decision once candidates have been evaluated
+- [C.32.ADR - Architecture Decision Record Projection](81-c32adr-c32adr-architecture-decision-record-projection.md) — How to project the consequences of an architecture decision into a record
+- [C.32.ADA - Architecture Decision Adequacy Scales](82-c32ada-c32ada-architecture-decision-adequacy-scales.md) — How to score an architecture decision against adequacy criteria
+- [C.33 - Structural Information Adequacy for Architecture Capture](83-c33-c33-structural-information-adequacy-for-architecture-capture.md) — How to check whether you have enough structural information to describe an architecture
+- [C.34 - Structural Correspondence, Equivalence, and Morphism Adequacy](84-c34-c34-structural-correspondence-equivalence-and-morphism-adequ.md) — How to verify that two structures correspond, or find where they diverge
+- [C.35 - Structural Synthesis and Discovery Adequacy](85-c35-c35-structural-synthesis-and-discovery-adequacy.md) — How to confirm that a synthesis or discovery process is complete enough to trust
+- [C.36 - Cultural Evolution and Cultural-Evolution Engineering](86-c36-c36-cultural-evolution-and-cultural-evolution-engineering.md) — How to deliberately shape how a team's shared practices evolve over time
+- [C.37 - Use-Bounded Representation Selection and Co-Use](87-c37-c37-use-bounded-representation-selection-and-co-use.md) — How to pick the right representation for a task and use multiple representations together
+- [C.38 - Construct Comparable Ways to Obtain One Result](88-c38-c38-construct-comparable-ways-to-obtain-one-result.md) — How to generate multiple distinct paths to the same result so you can compare them
+- [C.39 - Find and Develop a Way to Obtain a Result](89-c39-c39-find-and-develop-a-way-to-obtain-a-result.md) — How to discover and refine a method when none exists yet
+- [C.39.RO - Turn a Construction into a Reusable Operation](90-c39ro-c39ro-turn-a-construction-into-a-reusable-operation.md) — How to generalize a one-off solution into something that works in many contexts
+- [C.40 - Develop Branching Search from Reusable Material](91-c40-c40-develop-branching-search-from-reusable-material.md) — How to build a branching search strategy using existing patterns as building blocks
+- [C.40.CD - Develop Problems and Ways of Solving Them Together](92-c40cd-c40cd-develop-problems-and-ways-of-solving-them-together.md) — How to evolve problem definitions and solution approaches in parallel
+- [C.36.P - Cultural-Evolution Wording-Use Precision Restoration](93-c36p-c36p-cultural-evolution-wording-use-precision-restoration.md) — How to sharpen vague language around cultural evolution into precise claims
+- [C.36.RP - Sustain and Renew Shared Ways of Working](94-c36rp-c36rp-sustain-and-renew-shared-ways-of-working.md) — How to keep team practices alive and effective as people and context change

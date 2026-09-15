@@ -1,6 +1,6 @@
 # Cross-References into 07-cluster-av-constitutional-principles-of-the-kernel
 
-Patterns in other Parts that reference patterns in this directory (427 refs).
+Patterns in other Parts that reference patterns in this directory (435 refs).
 
 ## From 05-part-a-kernel-architecture-cluster
 
@@ -14,6 +14,7 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | A.1.1 | coordinates_with | A.15.PROD |
 | A.1.CSD | builds_on | A.14 |
 | A.1.CSD | coordinates_with | A.10 |
+| A.1.CSD | coordinates_with | A.15.9 |
 | A.1.SCR | coordinates_with | A.15.6 |
 | A.1.STM | builds_on | A.15.6 |
 | A.1.STM | coordinates_with | A.10 |
@@ -59,6 +60,10 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | A.3.3 | coordinates_with | A.15.2 |
 | A.3.3 | coordinates_with | A.10 |
 | A.3.3 | coordinates_with | A.20 |
+| A.3.3.CC | coordinates_with | A.17 |
+| A.3.3.CC | coordinates_with | A.18 |
+| A.3.3.CC | coordinates_with | A.19 |
+| A.3.3.TR | coordinates_with | A.22.CGUS |
 | A.3.4 | builds_on | A.7 |
 | A.3.4 | coordinates_with | A.14 |
 | A.3.4 | coordinates_with | A.15.1 |
@@ -161,15 +166,17 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | B.2.P | builds_on | A.14 |
 | B.3 | builds_on | A.10 |
 | B.3 | coordinates_with | A.15.1 |
+| B.3.3 | coordinates_with | A.10 |
+| B.3.4 | coordinates_with | A.10 |
 | B.4 | builds_on | A.12 |
 | B.4.1 | builds_on | A.16 |
 | B.4.1 | builds_on | A.16.1 |
-| B.5 | builds_on | A.10 |
 | B.5.2 | builds_on | A.10 |
 | B.5.2 | coordinates_with | A.16 |
 | B.5.2.0 | builds_on | A.16 |
 | B.5.2.1 | builds_on | A.17 |
 | B.5.2.1 | builds_on | A.18 |
+| B.5.TU | coordinates_with | A.15.9 |
 
 ## From 09-part-c-kernel-extension-specifications
 
@@ -217,6 +224,8 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | C.2.2a | used_by | A.16 |
 | C.2.4 | coordinates_with | A.16 |
 | C.2.5 | coordinates_with | A.16 |
+| C.2.8 | builds_on | A.17 |
+| C.2.8 | builds_on | A.18 |
 | C.2.LS | coordinates_with | A.16 |
 | C.2.P | builds_on | A.7 |
 | C.2.P | coordinates_with | A.10 |
@@ -263,8 +272,6 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | C.29 | builds_on | A.19 |
 | C.29 | builds_on | A.10 |
 | C.29 | builds_on | A.15 |
-| C.29 | coordinates_with | A.15.1 |
-| C.29 | coordinates_with | A.15.4 |
 | C.3.2 | coordinates_with | A.14 |
 | C.3.A | builds_on | A.15 |
 | C.3.A | builds_on | A.15.1 |
@@ -367,6 +374,7 @@ Patterns in other Parts that reference patterns in this directory (427 refs).
 | E.10.ARCH | coordinates_with | A.15.2 |
 | E.10.ARCH | coordinates_with | A.10 |
 | E.10.D2 | builds_on | A.7 |
+| E.10.DEV | coordinates_with | A.15 |
 | E.10.MOVE | builds_on | A.22.CGUS |
 | E.10.MOVE | builds_on | A.15.5 |
 | E.10.MOVE | coordinates_with | A.15 |

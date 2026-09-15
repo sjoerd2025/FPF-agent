@@ -1,6 +1,6 @@
 # Cross-References into 12-part-f-the-unification-suite-u-suite-concept-sets-sensecells
 
-Patterns in other Parts that reference patterns in this directory (179 refs).
+Patterns in other Parts that reference patterns in this directory (187 refs).
 
 ## From 05-part-a-kernel-architecture-cluster
 
@@ -102,11 +102,13 @@ Patterns in other Parts that reference patterns in this directory (179 refs).
 | B.5.3 | builds_on | F.8 |
 | B.5.3 | builds_on | F.17 |
 | B.5.3 | coordinates_with | F.9 |
+| B.5.TC | coordinates_with | F.0.2 |
 
 ## From 09-part-c-kernel-extension-specifications
 
 | Source | Relation | Target |
 |--------|----------|--------|
+| C.11.DUA | used_by | F.19 |
 | C.16.P | builds_on | F.18 |
 | C.16.Q | builds_on | F.9 |
 | C.16.Q | builds_on | F.18 |
@@ -124,7 +126,6 @@ Patterns in other Parts that reference patterns in this directory (179 refs).
 | C.26 | builds_on | F.9 |
 | C.26.1 | builds_on | F.9 |
 | C.26.2 | builds_on | F.9 |
-| C.29 | builds_on | F.9 |
 | C.3 | coordinates_with | F.9 |
 | C.3.3 | coordinates_with | F.9 |
 | C.3.4 | coordinates_with | F.9 |
@@ -160,7 +161,9 @@ Patterns in other Parts that reference patterns in this directory (179 refs).
 | E.10.D2 | constrains | F.8 |
 | E.10.D2 | constrains | F.9 |
 | E.10.D2 | constrains | F.15 |
+| E.10.DEV | builds_on | F.19 |
 | E.10.LRN | coordinates_with | F.17 |
+| E.10.MOVE | builds_on | F.19 |
 | E.10.MOVE | coordinates_with | F.17 |
 | E.10.ROLE | coordinates_with | F.18 |
 | E.10.ROLE | coordinates_with | F.19 |
@@ -185,11 +188,16 @@ Patterns in other Parts that reference patterns in this directory (179 refs).
 | E.21 | coordinates_with | F.19 |
 | E.24 | coordinates_with | F.18 |
 | E.24.CD | builds_on | F.18 |
+| E.24.CD | coordinates_with | F.19 |
 | E.24.PUB | builds_on | F.19 |
 | E.4 | coordinates_with | F.18 |
 | E.4.DPF | builds_on | F.18 |
+| E.4.DPF | coordinates_with | F.19 |
+| E.4.DPF.DA | coordinates_with | F.19 |
 | E.4.FPF | coordinates_with | F.18 |
+| E.4.FPF | coordinates_with | F.19 |
 | E.4.PFAD | coordinates_with | F.18 |
+| E.4.PFAD | coordinates_with | F.19 |
 | E.4.PFR | coordinates_with | F.18 |
 | E.8.ECSPF | coordinates_with | F.18 |
 | E.8.ECSPF | coordinates_with | F.19 |

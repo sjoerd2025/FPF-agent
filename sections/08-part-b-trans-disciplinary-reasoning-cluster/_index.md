@@ -1,27 +1,37 @@
 # Part B - Trans-disciplinary Reasoning Cluster
 
-- [B.1 - Holon Aggregation and Part-Whole Construction (B.1)](01-b1-b1-holon-aggregation-and-part-whole-construction.md) — How to build a composite whole from already-identified parts when the parts and their relations hold.
-- [B.1.1 - Dependency Structure and Relation Grounding (B.1.1)](02-b11-b11-dependency-structure-and-relation-grounding.md) — How to map which parts a whole depends on and ground those dependencies as explicit claims.
-- [B.1.2 - System Aggregation and Holon Delimitation (B.1.2)](03-b12-b12-system-aggregation-and-holon-delimitation.md) — How to aggregate a set of systems into a whole with its own identity and properties.
-- [B.1.3 - Γ_epist - Knowledge‑Specific Aggregation (B.1.3)](04-b13-b13-_epist-knowledgespecific-aggregation.md) — How to aggregate knowledge claims into a body of knowledge under declared composition rules.
-- [B.1.4 - Contextual and Temporal Aggregation (B.1.4)](05-b14-b14-contextual-and-temporal-aggregation.md) — How to aggregate claims that vary by context or time window without collapsing their differences.
-- [B.1.5 - Gamma_method - Order-Sensitive Method Composition and Work Enactment (B.1.5)](06-b15-b15-gamma_method-order-sensitive-method-composition-and-work.md) — How to compose methods in the right order and enact the resulting combined work.
-- [B.1.6 - Work-Resource Aggregation (B.1.6)](07-b16-b16-work-resource-aggregation.md) — How to account for which resources are consumed or produced by which work.
-- [B.2 - Meta-Holon Transition - Whole Reidentification (B.2)](08-b2-b2-meta-holon-transition-whole-reidentification.md) — How to recognize when a collection of parts becomes a new whole with its own identity.
-- [B.2.P - Emergence and MHT Precision Restoration (B.2.P)](09-b2p-b2p-emergence-and-mht-precision-restoration.md) — How to fix 'emergence' language by naming the actual new whole and the change that constituted it.
-- [B.2.2 - Meta-System Transition - System Specialization of MHT (B.2.2)](10-b22-b22-meta-system-transition-system-specialization-of-mht.md) — How to recognize when a collection of systems forms a system of systems with its own properties.
-- [B.2.3 - Meta-Holon Transition With Episteme Result (B.2.3)](11-b23-b23-meta-holon-transition-with-episteme-result.md) — How to handle a whole-level transition whose result is a knowledge body rather than a physical entity.
-- [B.2.4 - Capability and Functioning Whole Reidentification (B.2.4)](12-b24-b24-capability-and-functioning-whole-reidentification.md) — How to recognize when separate capabilities combine into a new capability with whole-level properties.
-- [B.2.5 - Supervisor-Subholon Feedback Relation (B.2.5)](13-b25-b25-supervisor-subholon-feedback-relation.md) — How to represent a parent system's feedback that adjusts what a subsystem does.
-- [B.3 - Trust and Assurance Calculus (B.3)](14-b3-b3-trust-and-assurance-calculus.md) — How to state what an assurance claim is backed by and what remains unsupported or uncertain.
-- [B.3.3 — Assurance Subtypes & Levels (B.3.3)](15-b33-b33-assurance-subtypes-levels.md) — How different kinds of assurance—functional, safety, regulatory—scale and relate to each other.
-- [B.3.4 - Evidence Decay & Epistemic Debt (B.3.4)](16-b34-b34-evidence-decay-epistemic-debt.md) — How evidence becomes stale over time and what accumulated epistemic debt does to trust.
-- [B.3.5 - Working-Model Relations & Grounding (CT2R-LOG) (B.3.5)](17-b35-b35-working-model-relations-grounding-ct2r-log.md) — How to ground a working model in evidence without treating the model as if it were the evidence.
-- [B.4 - Canonical Evolution Loop (B.4)](18-b4-b4-canonical-evolution-loop.md) — How to keep a subject's identity and history connected through repeated adaptation or change.
-- [B.4.1 - Observe -> Notice -> Stabilize -> Route (B.4.1)](19-b41-b41-observe-notice-stabilize-route.md) — How to move from an observation through noticing and stabilizing to a routing decision.
-- [B.5 - Canonical Reasoning Cycle (B.5)](20-b5-b5-canonical-reasoning-cycle.md) — A repeatable thinking cycle for exploring, shaping, evidencing, and operating on conclusions.
-- [B.5.1 - Explore → Shape → Evidence → Operate (B.5.1)](21-b51-b51-explore-shape-evidence-operate.md) — How to move from open exploration to shaping, evidencing, and operational use in a single cycle.
-- [B.5.2 - Abductive Loop (B.5.2)](22-b52-b52-abductive-loop.md) — How to generate and test competing candidate explanations rather than jumping to the first one.
-- [B.5.2.0 - U.AbductivePrompt (B.5.2.0)](23-b520-b520-uabductiveprompt.md) — How to structure the trigger that starts a cycle of generating and testing candidate explanations.
-- [B.5.2.1 - Creative Abduction with NQD (B.5.2.1)](24-b521-b521-creative-abduction-with-nqd.md) — How to generate novel candidate explanations while tracking their novelty and quality diversity.
-- [B.5.3 - Domain-Concept Bridge (B.5.3)](25-b53-b53-domain-concept-bridge.md) — How to map domain-specific terms to shared concepts without erasing their local meanings.
+- [B.1 - Holon Aggregation and Part-Whole Construction](01-b1-b1-holon-aggregation-and-part-whole-construction.md) — How to build a whole from parts without losing track of how the parts relate
+- [B.1.1 - Dependency Structure and Relation Grounding](02-b11-b11-dependency-structure-and-relation-grounding.md) — How to map which parts depend on which, and ground those dependencies in real relations
+- [B.1.2 - System Aggregation and Holon Delimitation](03-b12-b12-system-aggregation-and-holon-delimitation.md) — How to draw the boundary around a system when multiple parts come together
+- [B.1.3 - Knowledge‑Specific Aggregation](04-b13-b13-_epist-knowledgespecific-aggregation.md) — How to combine knowledge from different sources without averaging away what makes each unique
+- [B.1.4 - Contextual and Temporal Aggregation](05-b14-b14-contextual-and-temporal-aggregation.md) — How to aggregate across different contexts or time periods without mixing incompatible data
+- [B.1.5 - Order-Sensitive Method Composition and Work Enactment](06-b15-b15-gamma_method-order-sensitive-method-composition-and-work.md) — How to chain methods where the order of steps matters for the result
+- [B.1.6 - Work-Resource Aggregation](07-b16-b16-work-resource-aggregation.md) — How to roll up resource usage across multiple pieces of work
+- [B.2 - Meta-Holon Transition](08-b2-b2-meta-holon-transition-whole-reidentification.md) — How to recognize when a collection of parts has become a new whole in its own right
+- [B.2.P - Emergence and MHT Precision Restoration](09-b2p-b2p-emergence-and-mht-precision-restoration.md) — How to sharpen vague claims about emergence into precise, checkable statements
+- [B.2.2 - Meta-System Transition](10-b22-b22-meta-system-transition-system-specialization-of-mht.md) — How a system-level transition applies when the parts are systems themselves
+- [B.2.3 - Meta-Holon Transition With Episteme Result](11-b23-b23-meta-holon-transition-with-episteme-result.md) — How to capture the new knowledge that appears when a whole is reidentified
+- [B.2.4 - Capability and Functioning Whole Reidentification](12-b24-b24-capability-and-functioning-whole-reidentification.md) — How to track what a whole can do after its parts have been reorganized
+- [B.2.5 - Supervisor-Subholon Feedback Relation](13-b25-b25-supervisor-subholon-feedback-relation.md) — How to describe the control and feedback loops between a whole and its parts
+- [B.3 - Trust and Assurance Calculus](14-b3-b3-trust-and-assurance-calculus.md) — How to compute how much a claim can be trusted based on the quality of its evidence
+- [B.3.3 — Assurance Subtypes & Levels](15-b33-b33-assurance-subtypes-levels.md) — The different kinds and strengths of assurance that a claim can carry
+- [B.3.4 - Evidence Decay & Epistemic Debt](16-b34-b34-evidence-decay-epistemic-debt.md) — How evidence loses relevance over time and how to track the resulting knowledge debt
+- [B.3.5 - Working-Model Relations & Grounding](17-b35-b35-working-model-relations-grounding-ct2r-log.md) — How to keep your working model connected to real-world evidence
+- [B.4 - Canonical Evolution Loop](18-b4-b4-canonical-evolution-loop.md) — The repeating cycle through which a system learns from experience and improves
+- [B.4.1 - Observe → Notice → Stabilize → Route](19-b41-b41-observe-notice-stabilize-route.md) — The four-step process: see what happened, recognize its significance, stabilize the finding, route it to action
+- [B.5 - Canonical Reasoning Cycle](20-b5-b5-canonical-reasoning-cycle.md) — The repeating cycle of exploration, shaping, evidence-gathering, and operation
+- [B.5.MPC - Connect Physical, Mathematical and Computational Reasoning](21-b5mpc-b5mpc-connect-physical-mathematical-and-computational-reason.md) — How to keep your physical intuition, mathematical model, and computation aligned
+- [B.5.MPC.R - Repair a Physical-Mathematical-Computational Connection](22-b5mpc-b5mpcr-repair-a-physical-mathematical-computational-connecti.md) — How to fix it when the physical, mathematical, and computational views diverge
+- [B.5.RC - Recover a Construction from Its Description](23-b5rc-b5rc-recover-a-construction-from-its-description.md) — How to reconstruct what was built from the description left behind
+- [B.5.RA - Recover an Argument for Its Next Use](24-b5ra-b5ra-recover-an-argument-for-its-next-use.md) — How to make an existing argument ready to reuse in a new context
+- [B.5.RR - Revise Reasoning After a Premise or Question Changes](25-b5rr-b5rr-revise-reasoning-after-a-premise-or-question-changes.md) — How to update a chain of reasoning when an input or assumption changes
+- [B.5.FM - Construct a First Model for the Working Question](26-b5fm-b5fm-construct-a-first-model-for-the-working-question.md) — How to build a good-enough first model quickly so work can begin
+- [B.5.TU - Construct a Working Use of an Unfamiliar Theory](27-b5tu-b5tu-construct-a-working-use-of-an-unfamiliar-theory.md) — How to use a theory you don't fully understand yet without misapplying it
+- [B.5.TC - Compare Theoretical Accounts for a Working Question](28-b5tc-b5tc-compare-theoretical-accounts-for-a-working-question.md) — How to choose between competing theories when more than one could apply
+- [B.5.QD - Develop a New Question from a Result or Construction](29-b5qd-b5qd-develop-a-new-question-from-a-result-or-construction.md) — How to turn a result into the next productive question rather than stopping
+- [B.5.1 - Explore → Shape → Evidence → Operate](30-b51-b51-explore-shape-evidence-operate.md) — The four-phase reasoning cycle in its simplest form
+- [B.5.2 - Abductive Loop](31-b52-b52-abductive-loop.md) — How to generate the best explanation for surprising evidence
+- [B.5.2.0 - U.AbductivePrompt](32-b520-b520-uabductiveprompt.md) — How to frame a prompt that triggers the abductive reasoning cycle
+- [B.5.2.1 - Creative Abduction with NQD](33-b521-b521-creative-abduction-with-nqd.md) — How to generate novel explanations by combining abduction with quality-difference thinking
+- [B.5.3 - Domain-Concept Bridge](34-b53-b53-domain-concept-bridge.md) — How to connect concepts from different domains so they can be used together
+- [B.5.4 - Recognize a Reusable Concept in a Concrete Situation](35-b54-b54-recognize-a-reusable-concept-in-a-concrete-situation.md) — How to spot when an abstract concept from elsewhere is exactly what your situation calls for
